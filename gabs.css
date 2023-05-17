@@ -138,4 +138,4 @@ padding: 10px 20px; text-align: left; margin-top: 10px;}
 .gabreuide { background-color: var(--cor-grupo); background-image:var(--img-grupo, url("https://64.media.tumblr.com/882a8e74667cd78f5c0fa81a07e9a0e5/cb36446192e23925-e5/s1280x1920/01ad0a9c83e563f84276452949476141db0d2c9c.jpg")); }
 .gabreuide:hover{background-image: var(--img-hover); }
 .gabreucon e { color: var(--cor-grupo); font-weight: bold; }
-.gabreucon d { background-color: var(--cor-grupo); font-weight: bold; }
+.gabreucon d { background-color: var(--cor-grupo); color:#fff; font-weight: bold; }

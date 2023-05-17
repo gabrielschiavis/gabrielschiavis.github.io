@@ -36,12 +36,12 @@
     --youkai: #c76969;}
 
     #anjo .gabreucon { 
-    --cor-grupo: #0f698c;}
+     --cor-grupo: #0f698c;}
 
 #atlanti .gabreucon { 
-     --cor-grupo: #80d2f2;
-     --img-grupo: url("https://media.discordapp.net/attachments/971926292830224424/1105209007746056373/Tumblr_l_10086141740005.jpg?width=662&height=662");
-     --img-hover: url('https://i.imgur.com/l5T0hR5.png')!important;}
+ --cor-grupo: #80d2f2;
+ --img-grupo: url("https://media.discordapp.net/attachments/971926292830224424/1105209007746056373/Tumblr_l_10086141740005.jpg?width=662&height=662");
+ --img-hover: url('https://i.imgur.com/l5T0hR5.png')!important;}
 
     #banshee .gabreucon { 
      --cor-grupo: #fb31d5;}
@@ -50,7 +50,7 @@
      --cor-grupo: #7d604f;}
 
     #caçador .gabreucon { 
-    --cor-grupo: #3eb595;}
+     --cor-grupo: #3eb595;}
 
     #demônio .gabreucon { 
     --cor-grupo: #a3c0a2;
@@ -79,15 +79,15 @@
      --cor-grupo: #d9bea7;}
 
     #lobisomem .gabreucon { 
-    --cor-grupo: #ff8d00;}
+     --cor-grupo: #ff8d00;}
 
     #metamorfo .gabreucon { 
      --cor-grupo: #a66eb6;}
 
     #oneiro .gabreucon { 
      --cor-grupo: #ae4b2a;
-      --img-grupo: url("https://i.ibb.co/TBJpJnC/teste1.png");
-      --img-hover: url('https://i.imgur.com/9oPOI73.png')!important;}
+     --img-grupo: url("https://i.ibb.co/TBJpJnC/teste1.png");
+     --img-hover: url('https://i.imgur.com/9oPOI73.png')!important;}
     
 
     #vampiro .gabreucon { 
@@ -121,7 +121,7 @@
     white-space: pre-line;}
 
   .gabreuide { padding: 20px;
-     grid-area: gabreuheader; background-size: cover;
+    grid-area: gabreuheader; background-size: cover;
     background-position: top center;  background-blend-mode: multiply;
     text-transform: uppercase; font-family: montserrat;
     font-size: 8px; color: #fff; font-style: italic;
@@ -131,11 +131,15 @@
 .gabreucon h1 { font-size: 28px; text-transform: uppercase; 
   letter-spacing: 2px; font-style: italic; font-weight: 200; 
   padding: 20px; text-align: center; margin: 80px auto 0px; border-bottom: 1px solid rgba(255,255,255,0.1); border-top: 1px solid rgba(255,255,255,0.1);}
+
 .gabreucon h2 { font-size: 8px; text-transform:   uppercase; font-weight: 400;
   background: rgba(0,0,0,0.2); letter-spacing: 2px;
-padding: 10px 20px; text-align: left; margin-top: 10px;}
+  padding: 10px 20px; text-align: left; margin-top: 10px;}
 
 .gabreuide { background-color: var(--cor-grupo); background-image:var(--img-grupo, url("https://64.media.tumblr.com/882a8e74667cd78f5c0fa81a07e9a0e5/cb36446192e23925-e5/s1280x1920/01ad0a9c83e563f84276452949476141db0d2c9c.jpg")); }
+
 .gabreuide:hover{background-image: var(--img-hover); }
+
 .gabreucon e { color: var(--cor-grupo); font-weight: bold; }
+
 .gabreucon d { background-color: var(--cor-grupo); color:#fff; font-weight: bold; }

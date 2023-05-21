@@ -1,0 +1,173 @@
+.ric {
+
+            width: 550px;
+
+            margin: 30px auto;
+
+            display: grid;
+
+            grid-template-rows: 200px auto;
+
+            grid-template-areas:
+
+                "ric-head ric-img" "ric-post ric-post";
+
+        }
+
+        .ric-header {
+
+            grid-area: ric-head;
+
+            display: grid;
+
+            background: #680f11;
+
+            color: #fff;
+
+            font-size: 14px;
+
+            width: 200px;
+
+            clip-path: polygon(0 0, 100% 0, 65% 100%, 0% 100%);
+
+            grid-template-areas:
+
+                "com" "onde" "quando";
+
+        }
+
+        .ric-quando {
+
+            grid-area: quando;
+
+            font-size: 10px;
+
+            text-transform: uppercase;
+
+            background: #00000057;
+
+            letter-spacing: 1px;
+
+            color: #e1e1e1;
+
+            padding: 5px;
+
+            text-align: center;
+
+            margin-bottom: 90px;
+
+        }
+
+        .ric-onde {
+
+            grid-area: onde;
+
+            font-size: 10px;
+
+            text-transform: uppercase;
+
+            background: #00000057;
+
+            letter-spacing: 1px;
+
+            color: #e1e1e1;
+
+            padding: 5px;
+
+            text-align: center;
+
+            margin-bottom: 5px;
+
+        }
+
+        .ric-com {
+
+            grid-area: com;
+
+            font-size: 10px;
+
+            text-transform: uppercase;
+
+            background: #00000057;
+
+            letter-spacing: 1px;
+
+            color: #e1e1e1;
+
+            padding: 5px;
+
+            text-align: center;
+
+            margin-bottom: 5px;
+
+            margin-top: 30px;
+
+        }
+
+        .ric-img {
+
+            grid-area: ric-img;
+
+            width: 440px;
+
+            background-image: var(--imagem);
+
+            margin-left: -75px;
+
+            background-color: #8d1618;
+
+            background-size: cover;
+
+             background-blend-mode: multiply;
+
+             background-repeat: no-repeat;
+
+}
+
+        .ric-img h2 {
+
+            font-size: 8px;
+
+            text-transform: uppercase;
+
+            font-weight: 400;
+
+            background: #00000057;
+
+            letter-spacing: 2px;
+
+            color: #e1e1e1;
+
+            padding: 10px 0px;
+
+            text-align: center;
+
+            margin-top: 100px;
+
+        }
+
+        .ricpost {
+
+            grid-area: ric-post;
+
+            background-color: #181818;
+
+            white-space: pre-line;
+
+            line-height: 14, 5px;
+
+            font-family: montserrat;
+
+            font-size: 11px !important;
+
+            padding: 35px 70px;
+
+            color: #fff;
+
+            text-align: justify;
+
+            border: 15px double;
+
+            border-color: #680f11;
+
+        }

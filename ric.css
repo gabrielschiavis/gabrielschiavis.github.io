@@ -16,13 +16,122 @@
 
         }
 
+.ric {
+            --anjo: #0f698c;
+
+    --atlanti: #80d2f2;
+
+    --banshee: #fb31d5;
+
+    --bruxo: #7d604f;
+
+    --caçador: #3eb595;
+
+    --demônio: #a3c0a2;
+
+    --dimon: #9acd32;
+
+    --djinn: #f9db4a;
+
+    --fada: #ff8097;
+
+    --feiticeiro: #5b2491;
+
+    --jumper: #79844d;
+
+    --kiang-shi: #d9bea7;
+
+    --lobisomem: #ff8d00;
+
+    --metamorfo: #a66eb6;
+
+    --oneiro: #ae4b2a;
+
+    --vampiro: #821718;
+
+    --youkai: #c76969;}
+
+    #anjo .ric { 
+
+     --cor-grupo: #0f698c;}
+
+#atlanti .ric { 
+
+ --cor-grupo: #80d2f2;}
+
+    #banshee .ric { 
+
+     --cor-grupo: #fb31d5;}
+
+    #bruxo .ric { 
+
+     --cor-grupo: #7d604f;}
+
+    #caçador .ric { 
+
+     --cor-grupo: #3eb595;}
+
+    #demônio .ric { 
+
+    --cor-grupo: #a3c0a2;
+
+}
+
+    #dimon .ric { 
+
+     --cor-grupo: #9acd32;}
+
+    
+
+   #djinn .ric { 
+
+    --cor-grupo: #f9db4a;}
+
+    #fada .ric { 
+
+     --cor-grupo: #ff8097;}
+
+    #feiticeiro .ric { 
+
+     --cor-grupo: #5b2491;}
+
+    #jumper .ric { 
+
+     --cor-grupo: #79844d;}
+
+    #kiang-shi .ric { 
+
+     --cor-grupo: #d9bea7;}
+
+    #lobisomem .ric { 
+
+     --cor-grupo: #ff8d00;}
+
+    #metamorfo .ric { 
+
+     --cor-grupo: #a66eb6;}
+
+    #oneiro .ric { 
+
+     --cor-grupo: #ae4b2a
+
+   
+
+ #vampiro .ric { 
+
+    --cor-grupo: #821718;}
+
+    #youkai .ric { 
+
+    --cor-grupo: #c76969;}
+
         .ric-header {
 
             grid-area: ric-head;
 
             display: grid;
 
-            background: #680f11;
+            background: var(--cor-grupo);
 
             color: #fff;
 
@@ -116,7 +225,7 @@
 
             margin-left: -75px;
 
-            background-color: #8d1618;
+            background-color: var(--cor-grupo);
 
             background-size: cover;
 
@@ -170,6 +279,6 @@
 
             border: 15px double;
 
-            border-color: #680f11;
+            border-color:var(--cor-grupo);
 
         }

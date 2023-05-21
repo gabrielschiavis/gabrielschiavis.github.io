@@ -85,7 +85,7 @@
 
         .ricpost {
             grid-area: ric-post;
-            background-color: #000;
+            background-color: #181818;
             white-space: pre-line;
             line-height: 14, 5px;
             font-family: montserrat;

@@ -144,3 +144,5 @@
 .gabreucon e { color: var(--cor-grupo); font-weight: bold; }
 
 .gabreucon d { background-color: var(--cor-grupo); color:#fff; font-weight: bold; }
+
+.gabreucon i {color: var(--cor-grupo); }

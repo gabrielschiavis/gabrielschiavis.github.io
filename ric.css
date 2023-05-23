@@ -1,23 +1,21 @@
-
-
 .ric {
 
-            width: 550px;
+    width: 550px;
 
-            margin: 30px auto;
+    margin: 30px auto;
 
-            display: grid;
+    display: grid;
 
-            grid-template-rows: 200px auto;
+    grid-template-rows: 200px auto;
 
-            grid-template-areas:
+    grid-template-areas:
 
-                "ric-head ric-img" "ric-post ric-post";
+        "ric-head ric-img" "ric-post ric-post";
 
-        }
+}
 
 .ric {
-     --anjo: #0f698c;
+    --anjo: #0f698c;
 
     --atlanti: #80d2f2;
 
@@ -49,238 +47,267 @@
 
     --vampiro: #821718;
 
-    --youkai: #c76969;}
+    --youkai: #c76969;
+}
 
-    #anjo .ric { 
+#anjo .ric {
 
-     --cor-grupo: #0f698c;}
+    --cor-grupo: #0f698c;
+}
 
-#atlanti .ric { 
+#atlanti .ric {
 
- --cor-grupo: #80d2f2;}
+    --cor-grupo: #80d2f2;
+}
 
-    #banshee .ric { 
+#banshee .ric {
 
-     --cor-grupo: #fb31d5;}
+    --cor-grupo: #fb31d5;
+}
 
-    #bruxo .ric { 
+#bruxo .ric {
 
-     --cor-grupo: #7d604f;}
+    --cor-grupo: #7d604f;
+}
 
-    #caçador .ric { 
+#caçador .ric {
 
-     --cor-grupo: #3eb595;}
+    --cor-grupo: #3eb595;
+}
 
-    #demônio .ric { 
+#demônio .ric {
 
     --cor-grupo: #a3c0a2;
 
 }
 
-    #dimon .ric { 
+#dimon .ric {
 
-     --cor-grupo: #9acd32;}
+    --cor-grupo: #9acd32;
+}
 
-    
 
-   #djinn .ric { 
 
-    --cor-grupo: #f9db4a;}
+#djinn .ric {
 
-    #fada .ric { 
+    --cor-grupo: #f9db4a;
+}
 
-     --cor-grupo: #ff8097;}
+#fada .ric {
 
-    #feiticeiro .ric { 
+    --cor-grupo: #ff8097;
+}
 
-     --cor-grupo: #5b2491;}
+#feiticeiro .ric {
 
-    #jumper .ric { 
+    --cor-grupo: #5b2491;
+}
 
-     --cor-grupo: #79844d;}
+#jumper .ric {
 
-    #kiang-shi .ric { 
+    --cor-grupo: #79844d;
+}
 
-     --cor-grupo: #d9bea7;}
+#kiang-shi .ric {
 
-    #lobisomem .ric { 
+    --cor-grupo: #d9bea7;
+}
 
-     --cor-grupo: #ff8d00;}
+#lobisomem .ric {
 
-    #metamorfo .ric { 
+    --cor-grupo: #ff8d00;
+}
 
-     --cor-grupo: #a66eb6;}
+#metamorfo .ric {
 
-    #oneiro .ric { 
+    --cor-grupo: #a66eb6;
+}
 
-     --cor-grupo: #ae4b2a;}
+#oneiro .ric {
 
-   
+    --cor-grupo: #ae4b2a;
+}
 
- #vampiro .ric { 
 
-    --cor-grupo: #821718;}
 
-    #youkai .ric { 
+#vampiro .ric {
 
-    --cor-grupo: #c76969;}
+    --cor-grupo: #821718;
+}
 
-        .ric-header {
+#youkai .ric {
 
-            grid-area: ric-head;
+    --cor-grupo: #c76969;
+}
 
-            display: grid;
+.ric-header {
 
-            background: var(--cor-grupo);
+    grid-area: ric-head;
 
-            color: #fff;
+    display: grid;
 
-            font-size: 14px;
+    background: var(--cor-grupo);
 
-            width: 200px;
+    color: #fff;
 
-            clip-path: polygon(0 0, 100% 0, 65% 100%, 0% 100%);
+    font-size: 14px;
 
-            grid-template-areas:
+    width: 200px;
 
-                "com" "onde" "quando";
+    clip-path: polygon(0 0, 100% 0, 65% 100%, 0% 100%);
 
-        }
+    grid-template-areas:
 
-        .ric-quando {
-
-            grid-area: quando;
-
-            font-size: 10px;
-
-            text-transform: uppercase;
-
-            background: #00000057;
-
-            letter-spacing: 1px;
-
-            color: #e1e1e1;
-
-            padding: 5px;
-
-            text-align: center;
-
-            margin-bottom: 90px;
-
-        }
-
-        .ric-onde {
-
-            grid-area: onde;
-
-            font-size: 10px;
-
-            text-transform: uppercase;
-
-            background: #00000057;
-
-            letter-spacing: 1px;
-
-            color: #e1e1e1;
-
-            padding: 5px;
-
-            text-align: center;
-
-            margin-bottom: 5px;
-
-        }
-
-        .ric-com {
-
-            grid-area: com;
-
-            font-size: 10px;
-
-            text-transform: uppercase;
-
-            background: #00000057;
-
-            letter-spacing: 1px;
-
-            color: #e1e1e1;
-
-            padding: 5px;
-
-            text-align: center;
-
-            margin-bottom: 5px;
-
-            margin-top: 30px;
-
-        }
-
-        .ric-img {
-
-            grid-area: ric-img;
-
-            width: 440px;
-
-            background-image: var(--imagem);
-
-            margin-left: -75px;
-
-            background-color: var(--cor-grupo);
-
-            background-size: cover;
-
-             background-blend-mode: multiply;
-
-             background-repeat: no-repeat;
+        "com" "onde" "quando";
 
 }
 
-        .ric-img h2 {
+.ric-quando {
 
-            font-size: 8px;
+    grid-area: quando;
 
-            text-transform: uppercase;
+    font-size: 10px;
 
-            font-weight: 400;
+    text-transform: uppercase;
 
-            background: #00000057;
+    background: #00000057;
 
-            letter-spacing: 2px;
+    letter-spacing: 1px;
 
-            color: #e1e1e1;
+    color: #e1e1e1;
 
-            padding: 10px 0px;
+    padding: 5px;
 
-            text-align: center;
+    text-align: center;
 
-            margin-top: 100px;
+    margin-bottom: 90px;
 
-        }
+}
 
-        .ricpost {
+.ric-onde {
 
-            grid-area: ric-post;
+    grid-area: onde;
 
-            background-color: #181818;
+    font-size: 10px;
 
-            white-space: pre-line;
+    text-transform: uppercase;
 
-            line-height: 14, 5px;
+    background: #00000057;
 
-            font-family: montserrat;
+    letter-spacing: 1px;
 
-            font-size: 11px !important;
+    color: #e1e1e1;
 
-            padding: 35px 70px;
+    padding: 5px;
 
-            color: #fff;
+    text-align: center;
 
-            text-align: justify;
+    margin-bottom: 5px;
 
-            border: 15px double;
+}
 
-            border-color:var(--cor-grupo);
+.ric-com {
 
-        }
-.ricpost e {font-weight: 800; color: var(--cor-grupo);}
-.ricpost i {color: var(--cor-grupo);}
+    grid-area: com;
+
+    font-size: 10px;
+
+    text-transform: uppercase;
+
+    background: #00000057;
+
+    letter-spacing: 1px;
+
+    color: #e1e1e1;
+
+    padding: 5px;
+
+    text-align: center;
+
+    margin-bottom: 5px;
+
+    margin-top: 30px;
+
+}
+
+.ric-img {
+
+    grid-area: ric-img;
+
+    width: 440px;
+
+    background-image: var(--imagem);
+
+    margin-left: -75px;
+
+    background-color: var(--cor-grupo);
+
+    background-size: cover;
+
+    background-blend-mode: multiply;
+
+    background-repeat: no-repeat;
+
+}
+
+.ric-img:hover{ 
+
+    background-image: var(--imagem2);
+}
+
+.ric-img h2 {
+
+    font-size: 8px;
+
+    text-transform: uppercase;
+
+    font-weight: 400;
+
+    background: #00000057;
+
+    letter-spacing: 2px;
+
+    color: #e1e1e1;
+
+    padding: 10px 0px;
+
+    text-align: center;
+
+    margin-top: 100px;
+
+}
+
+.ricpost {
+
+    grid-area: ric-post;
+
+    background-color: #181818;
+
+    white-space: pre-line;
+
+    line-height: 14, 5px;
+
+    font-family: montserrat;
+
+    font-size: 11px !important;
+
+    padding: 35px 70px;
+
+    color: #fff;
+
+    text-align: justify;
+
+    border: 15px double;
+
+    border-color: var(--cor-grupo);
+
+}
+
+.ricpost e {
+    font-weight: 800;
+    color: var(--cor-grupo);
+}
+
+.ricpost i {
+    color: var(--cor-grupo);
+}

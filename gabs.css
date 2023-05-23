@@ -92,7 +92,9 @@
     
 
     #vampiro .gabreucon { 
-    --cor-grupo: #821718;}
+    --cor-grupo: #821718;
+    --img-grupo: url("https://64.media.tumblr.com/0868bbd9275cd5f56d68a44bea3638b6/c8d0ea81cb9ce01b-07/s1280x1920/5505bd6f888715dc55c3abe1dbe0fe7f8028cc9b.gifv");
+    --img-hover: url("https://64.media.tumblr.com/57054b9427a92bc8a72f819a29d6921f/41c450304a2ba807-9b/s640x960/049155799cdf0c9a150669b9c8132efee728ca64.gifv");}
 
     #youkai .gabreucon { 
     --cor-grupo: #c76969;} 

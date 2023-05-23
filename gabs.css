@@ -54,7 +54,7 @@
      --cor-grupo: #3eb595;}
 
     #demônio .gabreucon { 
-    --cor-grupo: #a3c0a2;
+    --cor-grupo: #dark-green;
     --img-grupo: url("https://64.media.tumblr.com/553af3c47bb658b4b8c5eda6063ca81b/032bdd6ba7c8b574-c6/s1280x1920/dc5a724f902727400b3113ab4914f0a92723a51e.jpg");
     --img-hover: url("https://64.media.tumblr.com/57054b9427a92bc8a72f819a29d6921f/41c450304a2ba807-9b/s640x960/049155799cdf0c9a150669b9c8132efee728ca64.gifv");; 
 }
@@ -138,7 +138,6 @@
   background: rgba(0,0,0,0.2); letter-spacing: 2px;
   padding: 10px 20px; text-align: left; margin-top: 10px;}
 
-#demônio .gabreuide { background-color: #91b390;}
 .gabreuide { background-color: var(--cor-grupo); background-image:var(--img-grupo, url("https://64.media.tumblr.com/882a8e74667cd78f5c0fa81a07e9a0e5/cb36446192e23925-e5/s1280x1920/01ad0a9c83e563f84276452949476141db0d2c9c.jpg")); }
 
 .gabreuide:hover{background-image: var(--img-hover); }

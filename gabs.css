@@ -138,6 +138,7 @@
   background: rgba(0,0,0,0.2); letter-spacing: 2px;
   padding: 10px 20px; text-align: left; margin-top: 10px;}
 
+#demônio .gabreuide { background-color: #91b390;}
 .gabreuide { background-color: var(--cor-grupo); background-image:var(--img-grupo, url("https://64.media.tumblr.com/882a8e74667cd78f5c0fa81a07e9a0e5/cb36446192e23925-e5/s1280x1920/01ad0a9c83e563f84276452949476141db0d2c9c.jpg")); }
 
 .gabreuide:hover{background-image: var(--img-hover); }

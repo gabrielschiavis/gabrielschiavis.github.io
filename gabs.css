@@ -4,8 +4,10 @@
       .gabreucon { color: #888;
       width: 600px; outline: 1px solid var(--cor-grupo, #fff); outline-offset: -20px;
       margin: 30px auto;
-      background-color: #030303;
-      background: linear-gradient(0deg, rgba(0,0,0,1) 60%, rgba(24.24,24,1) 80%, var(--cor-grupo) 100%);
+      background-color: var(--cor-grupo);
+      background-image: linear-gradient(to top, #fff 0,1%, rgba(0,0,0,1) 45%, rgba(24.24,24,1) 75%, rgba(26.26,26,1) 95%, #fff 100%);
+      background-blend-mode: multiply;
+
 
     display: grid;
     grid-template-columns: auto;

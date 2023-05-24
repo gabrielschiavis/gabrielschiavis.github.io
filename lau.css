@@ -301,9 +301,9 @@
 
     text-align: justify;
 
-    outline-ofset: -5px; 
+    outline-offset: -5px; 
     
-    outline: 1px;
+    outline: 1px solid;
 
     border-color: var(--cor-grupo);
 

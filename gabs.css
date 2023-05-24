@@ -116,6 +116,7 @@
    
    .gabreucon .gabreupost { grid-area: gabreupost; outline: 1px solid var(--cor-grupo, #fff); outline-offset: -20px;
     padding: 90px; margin-top: -19px;
+    background: linear-gradient(to bottom, var(--cor-grupo) 20%, #181818 20% 100%);
     text-align: justify; color: #ddd; letter-spacing: 0px;
     font-family: 'montserrat', serif;
     font-size: 13px!important;

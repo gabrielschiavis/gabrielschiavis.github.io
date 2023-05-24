@@ -301,11 +301,11 @@
 
     text-align: justify;
 
-    outline-offset: -5px; 
+    outline-offset: -15px; 
     
-    outline: 1px solid;
+    outline: 1px dashed;
 
-    border-color: var(--cor-grupo);
+    outline-color: var(--cor-grupo);
 
 }
 

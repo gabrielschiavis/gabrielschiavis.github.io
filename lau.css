@@ -1,0 +1,313 @@
+.lau {
+
+    width: 550px;
+
+    margin: 30px auto;
+
+    display: grid;
+
+    grid-template-rows: 200px auto;
+
+    grid-template-areas:
+
+        "lau-head lau-img" "lau-post lau-post";
+
+}
+
+.lau {
+    --anjo: #0f698c;
+
+    --atlanti: #80d2f2;
+
+    --banshee: #fb31d5;
+
+    --bruxo: #7d604f;
+
+    --caçador: #3eb595;
+
+    --demônio: #a3c0a2;
+
+    --dimon: #9acd32;
+
+    --djinn: #f9db4a;
+
+    --fada: #ff8097;
+
+    --feiticeiro: #5b2491;
+
+    --jumper: #79844d;
+
+    --kiang-shi: #d9bea7;
+
+    --lobisomem: #ff8d00;
+
+    --metamorfo: #a66eb6;
+
+    --oneiro: #ae4b2a;
+
+    --vampiro: #821718;
+
+    --youkai: #c76969;
+}
+
+#anjo .lau {
+
+    --cor-grupo: #0f698c;
+}
+
+#atlanti .lau {
+
+    --cor-grupo: #80d2f2;
+}
+
+#banshee .lau {
+
+    --cor-grupo: #fb31d5;
+}
+
+#bruxo .lau {
+
+    --cor-grupo: #7d604f;
+}
+
+#caçador .lau {
+
+    --cor-grupo: #3eb595;
+}
+
+#demônio .lau {
+
+    --cor-grupo: #a3c0a2;
+
+}
+
+#dimon .lau {
+
+    --cor-grupo: #9acd32;
+}
+
+
+
+#djinn .lau {
+
+    --cor-grupo: #f9db4a;
+}
+
+#fada .lau {
+
+    --cor-grupo: #ff8097;
+}
+
+#feiticeiro .lau {
+
+    --cor-grupo: #5b2491;
+}
+
+#jumper .lau {
+
+    --cor-grupo: #79844d;
+}
+
+#kiang-shi .lau {
+
+    --cor-grupo: #d9bea7;
+}
+
+#lobisomem .lau {
+
+    --cor-grupo: #ff8d00;
+}
+
+#metamorfo .lau {
+
+    --cor-grupo: #a66eb6;
+}
+
+#oneiro .lau {
+
+    --cor-grupo: #ae4b2a;
+}
+
+
+
+#vampiro .lau {
+
+    --cor-grupo: #821718;
+}
+
+#youkai .lau {
+
+    --cor-grupo: #c76969;
+}
+
+.lau-header {
+
+    grid-area: lau-head;
+
+    display: grid;
+
+    background: var(--cor-grupo);
+
+    color: #fff;
+
+    font-size: 14px;
+
+    width: 200px;
+
+    clip-path: polygon(0 0, 100% 0, 65% 100%, 0% 100%);
+
+    grid-template-areas:
+
+        "com" "onde" "quando";
+
+}
+
+.lau-quando {
+
+    grid-area: quando;
+
+    font-size: 10px;
+
+    text-transform: uppercase;
+
+    background: #00000057;
+
+    letter-spacing: 1px;
+
+    color: #e1e1e1;
+
+    padding: 5px;
+
+    text-align: center;
+
+    margin-bottom: 90px;
+
+}
+
+.lau-onde {
+
+    grid-area: onde;
+
+    font-size: 10px;
+
+    text-transform: uppercase;
+
+    background: #00000057;
+
+    letter-spacing: 1px;
+
+    color: #e1e1e1;
+
+    padding: 5px;
+
+    text-align: center;
+
+    margin-bottom: 5px;
+
+}
+
+.lau-com {
+
+    grid-area: com;
+
+    font-size: 10px;
+
+    text-transform: uppercase;
+
+    background: #00000057;
+
+    letter-spacing: 1px;
+
+    color: #e1e1e1;
+
+    padding: 5px;
+
+    text-align: center;
+
+    margin-bottom: 5px;
+
+    margin-top: 30px;
+
+}
+
+.lau-img {
+
+    grid-area: lau-img;
+
+    width: 440px;
+
+    background-image: var(--imagem);
+
+    margin-left: -75px;
+
+    background-color: var(--cor-grupo);
+
+    background-size: cover;
+
+    background-blend-mode: multiply;
+
+    background-repeat: no-repeat;
+
+}
+
+.lau-img:hover{ 
+
+    background-image: var(--imagem2);
+}
+
+.lau-img h2 {
+
+    font-size: 8px;
+
+    text-transform: uppercase;
+
+    font-weight: 400;
+
+    background: #00000057;
+
+    letter-spacing: 2px;
+
+    color: #e1e1e1;
+
+    padding: 10px 0px;
+
+    text-align: center;
+
+    margin-top: 100px;
+
+}
+
+.laupost {
+
+    grid-area: lau-post;
+
+    background-color: #181818;
+
+    white-space: pre-line;
+
+    line-height: 14, 5px;
+
+    font-family: montserrat;
+
+    font-size: 11px !important;
+
+    padding: 35px 70px;
+
+    color: #fff;
+
+    text-align: justify;
+
+    border: 15px double;
+
+    border-color: var(--cor-grupo);
+
+}
+
+.laupost e {
+    font-weight: 800;
+    color: var(--cor-grupo);
+}
+
+.laupost i {
+    color: var(--cor-grupo);
+}

@@ -250,6 +250,10 @@
     background-blend-mode: multiply;
 
     background-repeat: no-repeat;
+    
+    position: sticky; 
+    
+    top: 20px; 
 
 }
 

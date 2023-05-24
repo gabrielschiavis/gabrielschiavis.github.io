@@ -301,7 +301,9 @@
 
     text-align: justify;
 
-    border: 15px double;
+    outline-ofset: -5px; 
+    
+    outline: 1px;
 
     border-color: var(--cor-grupo);
 

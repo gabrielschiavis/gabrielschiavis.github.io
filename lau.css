@@ -249,13 +249,7 @@
 
     background-blend-mode: multiply;
 
-    background-repeat: no-repeat;
-    
-    position: fixed; 
-    
-    top: 20px;
-
-}
+    background-repeat: no-repeat;}
 
 .lau-img:hover{ 
 

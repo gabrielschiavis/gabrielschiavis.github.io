@@ -251,9 +251,9 @@
 
     background-repeat: no-repeat;
     
-    position: sticky; 
+    position: fixed; 
     
-    top: 20px; 
+    top: 0px; 
 
 }
 

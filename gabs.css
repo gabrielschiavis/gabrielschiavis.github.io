@@ -45,7 +45,7 @@
 #atlanti .gabreucon { 
  --cor-grupo: #80d2f2;
  --img-grupo: url("https://media.discordapp.net/attachments/971926292830224424/1105209007746056373/Tumblr_l_10086141740005.jpg?width=662&height=662");
- --img-hover: url('https://i.imgur.com/l5T0hR5.png')!important;}
+ --img-hover: url('https://i.imgur.com/l5T0hR5.png');}
 
     #banshee .gabreucon { 
      --cor-grupo: #fb31d5;}
@@ -59,7 +59,7 @@
     #demônio .gabreucon { 
     --cor-grupo: #a3c0a2;
     --img-grupo: url("https://64.media.tumblr.com/553af3c47bb658b4b8c5eda6063ca81b/032bdd6ba7c8b574-c6/s1280x1920/dc5a724f902727400b3113ab4914f0a92723a51e.jpg");
-    --img-hover: url("https://64.media.tumblr.com/57054b9427a92bc8a72f819a29d6921f/41c450304a2ba807-9b/s640x960/049155799cdf0c9a150669b9c8132efee728ca64.gifv");; 
+    --img-hover: url("https://64.media.tumblr.com/57054b9427a92bc8a72f819a29d6921f/41c450304a2ba807-9b/s640x960/049155799cdf0c9a150669b9c8132efee728ca64.gifv");
 }
 
     #dimon .gabreucon { 
@@ -68,10 +68,7 @@
      --img-hover: url('https://cdn.discordapp.com/attachments/971926292830224424/1115408340948893808/rent_1.gif')!important;}
     
    #djinn .gabreucon { 
-      --cor-grupo: #f9db4a;
-      --img-grupo: url("https://i.imgur.com/KVQGQ1A.png");
-      --img-hover: url('https://64.media.tumblr.com/d1ceb89488c37693598c7cca03555a95/eb46ff8742d87082-cd/s540x810/2a84cfe491ae57cdb829bc69c57996314530e58a.gifv
-')!important;}
+      --cor-grupo: #f9db4a;}
 
     #fada .gabreucon { 
      --cor-grupo: #ff8097;}

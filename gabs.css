@@ -117,6 +117,10 @@
 
     #dimon .gabreuide h2::before{content: "So I don't get lost in the darkness inside";}
 
+    #djinn .gabreuide h1::before{content: "In the dust of my ancestors";} 
+
+    #djinn .gabreuide h2::before{content: "All of our opressors shall be buried";}
+
    .gabreuide h1::before{content: "Skin default";} 
 
    .gabreuide h2::before{content: "default text";} 

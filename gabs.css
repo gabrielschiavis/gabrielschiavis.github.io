@@ -68,7 +68,11 @@
      --img-hover: url('https://cdn.discordapp.com/attachments/971926292830224424/1115408340948893808/rent_1.gif')!important;}
     
    #djinn .gabreucon { 
-      --cor-grupo: #f9db4a;}
+      --cor-grupo: #f9db4a;
+      --img-grupo: url("https://i.imgur.com/KVQGQ1A.png");
+      --img-hover: url("https://64.media.tumblr.com/d1ceb89488c37693598c7cca03555a95/eb46ff8742d87082-cd/s540x810/2a84cfe491ae57cdb829bc69c57996314530e58a.gifv")
+   
+   }
 
     #fada .gabreucon { 
      --cor-grupo: #ff8097;}

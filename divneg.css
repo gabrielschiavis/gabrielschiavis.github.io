@@ -1,4 +1,4 @@
-.gabs {
+.ric {
 
     width: 550px;
 
@@ -10,158 +10,139 @@
 
     grid-template-areas:
 
-        "gabs-head gabs-img" "gabs-post gabs-post";
+        "ric-head ric-img" "ric-post ric-post";
 
 }
 
-    #deuses .gabs { 
-    
-       --cor grupo: #B8A944; }
+.ric {
+    --anjo: #0f698c;
 
-    #estagiarios .gabs {    
-     
-      --cor grupo #BD2864; }
+    --atlanti: #80d2f2;
 
-    #legados .gabs { 
-    
-       --cor grupo: #1f3ac3; }
-  
-  #indefinidos .gabs {
-    
-       --cor grupo: #6E6E6E; }
+    --banshee: #fb31d5;
 
-    #afrodite .gabs { 
-    
-       --cor grupo: #FA69C5; }
+    --bruxo: #7d604f;
 
-    #apolo .gabs {
-    
-       --cor grupo: #E8D243; }
+    --caçador: #3eb595;
+
+    --demônio: #a3c0a2;
+
+    --dimon: #9acd32;
+
+    --djinn: #f9db4a;
+
+    --fada: #ff8097;
+
+    --feiticeiro: #5b2491;
+
+    --jumper: #79844d;
+
+    --kiang-shi: #d9bea7;
+
+    --lobisomem: #ff8d00;
+
+    --metamorfo: #a66eb6;
+
+    --oneiro: #ae4b2a;
+
+    --vampiro: #821718;
+
+    --youkai: #c76969;
+}
+
+#anjo .ric {
+
+    --cor-grupo: #0f698c;
+}
+
+#atlanti .ric {
+
+    --cor-grupo: #80d2f2;
+}
+
+#banshee .ric {
+
+    --cor-grupo: #fb31d5;
+}
+
+#bruxo .ric {
+
+    --cor-grupo: #7d604f;
+}
+
+#caçador .ric {
+
+    --cor-grupo: #3eb595;
+}
+
+#demônio .ric {
+
+    --cor-grupo: #a3c0a2;
+
+}
+
+#dimon .ric {
+
+    --cor-grupo: #9acd32;
+}
 
 
-    #ares .gabs {
-    
-       --cor grupo: #db1414; }
 
-    #aristeu .gabs {
-    
-       --cor grupo: #FCB53A; }
+#djinn .ric {
 
-    #astraeus .gabs {
-    
-       --cor grupo: #7644d8; }
+    --cor-grupo: #f9db4a;
+}
 
-    #atena .gabs {
-    
-       --cor grupo: #8d8b55; }
+#fada .ric {
 
-    #belona .gabs {
-    
-       --cor grupo: #9C0000; }
+    --cor-grupo: #ff8097;
+}
 
-    #demeter .gabs {
-    
-       --cor grupo: #37bb44; }
+#feiticeiro .ric {
 
-    #despina .gabs {
-    
-       --cor grupo: #324f66; }
+    --cor-grupo: #5b2491;
+}
 
-    #dionisio .gabs {
-    
-       --cor grupo: #910980; }
+#jumper .ric {
 
-    #eris .gabs {
-    
-       --cor grupo: #f32bdc; }
+    --cor-grupo: #79844d;
+}
 
-    #eros .gabs {
-    
-       --cor grupo: #D65E76; }
+#kiang-shi .ric {
 
-    #eter .gabs {
-    
-       --cor grupo: #1f4b81; }
+    --cor-grupo: #d9bea7;
+}
 
-    #hades .gabs {
-    
-       --cor grupo: #504283; }
+#lobisomem .ric {
 
-    #hecate .gabs {
-    
-       --cor grupo: #412a8c; }
+    --cor-grupo: #ff8d00;
+}
 
-    #hefesto .gabs {
-    
-       --cor grupo: #B8410E; }
+#metamorfo .ric {
 
-    #heracles .gabs {
-    
-       --cor grupo: #D57A34; }
+    --cor-grupo: #a66eb6;
+}
 
-    #hermes .gabs {
-    
-       --cor grupo: #83A892; }
+#oneiro .ric {
 
-    #hipnos .gabs {
-    
-       --cor grupo: #8F548A; }
+    --cor-grupo: #ae4b2a;
+}
 
-    #jano .gabs {
-    
-       --cor grupo: #db341a; }
 
-    #kairos .gabs {
-    
-       --cor grupo: #137629; }
 
-    #melinoe .gabs {
-    
-       --cor grupo: #a265ff; }
+#vampiro .ric {
 
-    #nemesis .gabs {
-    
-       --cor grupo: #872020; }
+    --cor-grupo: #821718;
+}
 
-    #nice .gabs { 
-    
-       --cor grupo: #C59F24; }
+#youkai .ric {
 
-    #pandora .gabs { 
-    
-       --cor grupo: #89003d; }
+    --cor-grupo: #c76969;
+}
 
-    #persefone .gabs {
-    
-       --cor grupo: #d91939; }
+.ric-header {
 
-    #poseidon .gabs {
-    
-       --cor grupo: #016B64; }
-
-    #psique .gabs {
-    
-       --cor grupo: #509AAD; }
-
-    #tanatos .gabs {
-    
-       --cor grupo: #664141; }
-
-    #zeus .gabs {
-    
-       --cor grupo: #00AEFF; }
-
-    #mortos .gabs {
-    
-       --cor grupo: #5e4d38; }
-
-    #iris .gabs {
-    
-       --cor grupo: #F5A4A4; }
-
-.gabs-header {
-
-    grid-area: gabs-head;
+    grid-area: ric-head;
 
     display: grid;
 
@@ -181,7 +162,7 @@
 
 }
 
-.gabs-quando {
+.ric-quando {
 
     grid-area: quando;
 
@@ -203,7 +184,7 @@
 
 }
 
-.gabs-onde {
+.ric-onde {
 
     grid-area: onde;
 
@@ -225,7 +206,7 @@
 
 }
 
-.gabs-com {
+.ric-com {
 
     grid-area: com;
 
@@ -249,9 +230,9 @@
 
 }
 
-.gabs-img {
+.ric-img {
 
-    grid-area: gabs-img;
+    grid-area: ric-img;
 
     width: 440px;
 
@@ -269,12 +250,12 @@
 
 }
 
-.gabs-img:hover{ 
+.ric-img:hover{ 
 
     background-image: var(--imagem2);
 }
 
-.gabs-img h2 {
+.ric-img h2 {
 
     font-size: 8px;
 
@@ -296,11 +277,11 @@
 
 }
 
-.gabspost {
+.ricpost {
 
-    grid-area: gabs-post;
+    grid-area: ric-post;
 
-    background-color: var(--fundo2);
+    background-color: var(--fundo1);
 
     white-space: pre-line;
 
@@ -308,7 +289,7 @@
 
     font-family: montserrat;
 
-    font-size: 11px !important;
+    font-size: 12px !important;
 
     padding: 35px 70px;
 
@@ -322,11 +303,8 @@
 
 }
 
-.gabspost e {
+.ricpost e {
     font-weight: 800;
     color: var(--cor-grupo);
 }
-
-
-
 

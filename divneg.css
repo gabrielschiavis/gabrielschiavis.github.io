@@ -281,15 +281,13 @@
 
     grid-area: ric-post;
 
-    background-color: var(--fundo1);
+    background-color: var(--fundo2);
 
-    white-space: pre-line;
-
-    line-height: 14, 5px;
+    line-height: 10px;
 
     font-family: montserrat;
 
-    font-size: 12px !important;
+    font-size: 13px !important;
 
     padding: 35px 70px;
 

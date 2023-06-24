@@ -113,10 +113,8 @@
 
     display: grid;
 
-    background-color: var(--ctxeto1);
-      
-    background-blend-mode: multiply;
-
+    background: var(--fundo1);
+    
     color: #fff;
 
     font-size: 14px;

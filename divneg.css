@@ -19,6 +19,7 @@
 #hermes .ric {
 
     --cor-grupo: #83A892;
+    --rgbacolor: rgba(131, 168, 146, 0.6)
 }
 
 #atlanti .ric {
@@ -112,9 +113,9 @@
 
     display: grid;
 
-    background-color: var(--cor-grupo);
+    background-color: var(--ctxeto1);
      
-    background-image: linear-gradient(to right, #fff 0.1%, rgba(0,0,0,1) 45%, rgba(24,24,24,1) 75%, rgba(26.26,26,1) 95%, #fff 100%);
+    background-image: linear-gradient(to right, rgba(131, 168, 146, 0.6) rgba(0,0,0,1) 45%, rgba(24,24,24,1) 75%, rgba(26.26,26,1) 95%, #fff 100%);
       
     background-blend-mode: multiply;
 

@@ -16,42 +16,6 @@
 
 }
 
-.ric {
-    --anjo: #0f698c;
-
-    --atlanti: #80d2f2;
-
-    --banshee: #fb31d5;
-
-    --bruxo: #7d604f;
-
-    --caçador: #3eb595;
-
-    --demônio: #a3c0a2;
-
-    --dimon: #9acd32;
-
-    --djinn: #f9db4a;
-
-    --fada: #ff8097;
-
-    --feiticeiro: #5b2491;
-
-    --jumper: #79844d;
-
-    --kiang-shi: #d9bea7;
-
-    --lobisomem: #ff8d00;
-
-    --metamorfo: #a66eb6;
-
-    --oneiro: #ae4b2a;
-
-    --vampiro: #821718;
-
-    --youkai: #c76969;
-}
-
 #hermes .ric {
 
     --cor-grupo: #83A892;
@@ -148,7 +112,11 @@
 
     display: grid;
 
-    background: var(--cor-grupo);
+    background-color: var(--cor-grupo);
+     
+    background-image: linear-gradient(to right, #fff 0,1%, rgba(0,0,0,1) 45%, rgba(24.24,24,1) 75%, rgba(26.26,26,1) 95%, #fff 100%);
+      
+    background-blend-mode: multiply;
 
     color: #fff;
 

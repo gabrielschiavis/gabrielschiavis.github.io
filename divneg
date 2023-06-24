@@ -1,0 +1,332 @@
+.gabs {
+
+    width: 550px;
+
+    margin: 30px auto;
+
+    display: grid;
+
+    grid-template-rows: 200px auto;
+
+    grid-template-areas:
+
+        "gabs-head gabs-img" "gabs-post gabs-post";
+
+}
+
+    #deuses .gabs { 
+    
+       --cor grupo: #B8A944; }
+
+    #estagiarios .gabs {    
+     
+      --cor grupo #BD2864; }
+
+    #legados .gabs { 
+    
+       --cor grupo: #1f3ac3; }
+  
+  #indefinidos .gabs {
+    
+       --cor grupo: #6E6E6E; }
+
+    #afrodite .gabs { 
+    
+       --cor grupo: #FA69C5; }
+
+    #apolo .gabs {
+    
+       --cor grupo: #E8D243; }
+
+
+    #ares .gabs {
+    
+       --cor grupo: #db1414; }
+
+    #aristeu .gabs {
+    
+       --cor grupo: #FCB53A; }
+
+    #astraeus .gabs {
+    
+       --cor grupo: #7644d8; }
+
+    #atena .gabs {
+    
+       --cor grupo: #8d8b55; }
+
+    #belona .gabs {
+    
+       --cor grupo: #9C0000; }
+
+    #demeter .gabs {
+    
+       --cor grupo: #37bb44; }
+
+    #despina .gabs {
+    
+       --cor grupo: #324f66; }
+
+    #dionisio .gabs {
+    
+       --cor grupo: #910980; }
+
+    #eris .gabs {
+    
+       --cor grupo: #f32bdc; }
+
+    #eros .gabs {
+    
+       --cor grupo: #D65E76; }
+
+    #eter .gabs {
+    
+       --cor grupo: #1f4b81; }
+
+    #hades .gabs {
+    
+       --cor grupo: #504283; }
+
+    #hecate .gabs {
+    
+       --cor grupo: #412a8c; }
+
+    #hefesto .gabs {
+    
+       --cor grupo: #B8410E; }
+
+    #heracles .gabs {
+    
+       --cor grupo: #D57A34; }
+
+    #hermes .gabs {
+    
+       --cor grupo: #83A892; }
+
+    #hipnos .gabs {
+    
+       --cor grupo: #8F548A; }
+
+    #jano .gabs {
+    
+       --cor grupo: #db341a; }
+
+    #kairos .gabs {
+    
+       --cor grupo: #137629; }
+
+    #melinoe .gabs {
+    
+       --cor grupo: #a265ff; }
+
+    #nemesis .gabs {
+    
+       --cor grupo: #872020; }
+
+    #nice .gabs { 
+    
+       --cor grupo: #C59F24; }
+
+    #pandora .gabs { 
+    
+       --cor grupo: #89003d; }
+
+    #persefone .gabs {
+    
+       --cor grupo: #d91939; }
+
+    #poseidon .gabs {
+    
+       --cor grupo: #016B64; }
+
+    #psique .gabs {
+    
+       --cor grupo: #509AAD; }
+
+    #tanatos .gabs {
+    
+       --cor grupo: #664141; }
+
+    #zeus .gabs {
+    
+       --cor grupo: #00AEFF; }
+
+    #mortos .gabs {
+    
+       --cor grupo: #5e4d38; }
+
+    #iris .gabs {
+    
+       --cor grupo: #F5A4A4; }
+
+.gabs-header {
+
+    grid-area: gabs-head;
+
+    display: grid;
+
+    background: var(--cor-grupo);
+
+    color: #fff;
+
+    font-size: 14px;
+
+    width: 200px;
+
+    clip-path: polygon(0 0, 100% 0, 65% 100%, 0% 100%);
+
+    grid-template-areas:
+
+        "com" "onde" "quando";
+
+}
+
+.gabs-quando {
+
+    grid-area: quando;
+
+    font-size: 10px;
+
+    text-transform: uppercase;
+
+    background: #00000057;
+
+    letter-spacing: 1px;
+
+    color: #e1e1e1;
+
+    padding: 5px;
+
+    text-align: center;
+
+    margin-bottom: 90px;
+
+}
+
+.gabs-onde {
+
+    grid-area: onde;
+
+    font-size: 10px;
+
+    text-transform: uppercase;
+
+    background: #00000057;
+
+    letter-spacing: 1px;
+
+    color: #e1e1e1;
+
+    padding: 5px;
+
+    text-align: center;
+
+    margin-bottom: 5px;
+
+}
+
+.gabs-com {
+
+    grid-area: com;
+
+    font-size: 10px;
+
+    text-transform: uppercase;
+
+    background: #00000057;
+
+    letter-spacing: 1px;
+
+    color: #e1e1e1;
+
+    padding: 5px;
+
+    text-align: center;
+
+    margin-bottom: 5px;
+
+    margin-top: 30px;
+
+}
+
+.gabs-img {
+
+    grid-area: gabs-img;
+
+    width: 440px;
+
+    background-image: var(--imagem);
+
+    margin-left: -75px;
+
+    background-color: var(--cor-grupo);
+
+    background-size: cover;
+
+    background-blend-mode: multiply;
+
+    background-repeat: no-repeat;
+
+}
+
+.gabs-img:hover{ 
+
+    background-image: var(--imagem2);
+}
+
+.gabs-img h2 {
+
+    font-size: 8px;
+
+    text-transform: uppercase;
+
+    font-weight: 400;
+
+    background: #00000057;
+
+    letter-spacing: 2px;
+
+    color: #e1e1e1;
+
+    padding: 10px 0px;
+
+    text-align: center;
+
+    margin-top: 100px;
+
+}
+
+.gabspost {
+
+    grid-area: gabs-post;
+
+    background-color: var(--fundo2);
+
+    white-space: pre-line;
+
+    line-height: 14, 5px;
+
+    font-family: montserrat;
+
+    font-size: 11px !important;
+
+    padding: 35px 70px;
+
+    color: #fff;
+
+    text-align: justify;
+
+    border: 15px double;
+
+    border-color: var(--cor-grupo);
+
+}
+
+.gabspost e {
+    font-weight: 800;
+    color: var(--cor-grupo);
+}
+
+
+
+

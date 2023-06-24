@@ -291,7 +291,7 @@
 
     padding: 35px 70px;
 
-    color: #fff;
+    color: var(--cor-texto1);
 
     text-align: justify;
 

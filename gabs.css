@@ -159,6 +159,6 @@
 
 .gabreucon i {color: var(--cor-grupo); }
 
- .gabreucon ig {text-align: center; color: var(--cor-grupo);}
+ .gabreucon ig {text-align: center; }
 
-.gabreucon ig::before{  justify-content: center; content: "༄༄༄";}
+.gabreucon ig::before{  align-content: center; content: "༄༄༄"; color: var(--cor-grupo);}

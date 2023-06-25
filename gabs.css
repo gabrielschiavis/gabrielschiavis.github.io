@@ -161,4 +161,4 @@
 
  .gabreucon ig {text-align: center; }
 
-.gabreucon ig::before{ margin: 0px auto; content: "༄༄༄"; color: var(--cor-grupo);}
+.gabreucon ig::before{ display: block; font-size:18px; margin: 0px auto; content: "༄༄༄"; color: var(--cor-grupo);}

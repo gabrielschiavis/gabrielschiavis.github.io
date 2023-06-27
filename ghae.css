@@ -1,0 +1,395 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+.ghae {
+    width: 600px;
+    margin: 20px auto;
+    --anjo: #0f698c;
+    --atlanti: #80d2f2;
+    --banshee: #fb31d5;
+    --bruxo: #7d604f;
+    --caçador: #3eb595;
+    --demônio: #a3c0a2;
+    --dimon: #9acd32;
+    --djinn: #f9db4a;
+    --fada: #ff8097;
+    --feiticeiro: #5b2491;
+    --jumper: #79844d;
+    --kiang-shi: #d9bea7;
+    --lobisomem: #ff8d00;
+    --metamorfo: #a66eb6;
+    --oneiro: #ae4b2a;
+    --vampiro: #821718;
+    --youkai: #c76969;
+}
+
+#atlanti .ghae {
+    --cor-grupo: #80d2f2;
+    --img-grupo: url('https://i.imgur.com/XzW0nhZ.png');
+    --img-hover: url("https://i.imgur.com/m8mFvUb.png");
+    --img-circle: url('https://i.imgur.com/oUqsh7F.png');
+    --outra-cor: #6bafca;
+}
+
+#banshee .ghae {
+    --cor-grupo: #fb31d5;
+}
+
+#bruxo .ghae {
+    --cor-grupo: #7d604f;
+}
+
+#caçador .ghae {
+    --cor-grupo: #3eb595;
+}
+
+#demonio .ghae {
+    --cor-grupo: #a3c0a2;
+    --img-grupo: url("https://64.media.tumblr.com/553af3c47bb658b4b8c5eda6063ca81b/032bdd6ba7c8b574-c6/s1280x1920/dc5a724f902727400b3113ab4914f0a92723a51e.jpg");
+    --img-hover: url("https://64.media.tumblr.com/57054b9427a92bc8a72f819a29d6921f/41c450304a2ba807-9b/s640x960/049155799cdf0c9a150669b9c8132efee728ca64.gifv");
+}
+
+#dimon .ghae {
+    --cor-grupo: #9acd32;
+    --img-grupo: url("https://i.imgur.com/KVQGQ1A.png")
+    --img-hover: url('https://i.imgur.com/ksjuDJ7.png')
+    --img-circle: url('https://i.imgur.com/D0zVptW.jpg');
+    --outra-cor: rgb(144, 195, 40);
+}
+
+#djinn .ghae {
+    --cor-grupo: #f9db4a;
+    --img-grupo: url("https://i.imgur.com/GGjrQLK.png");
+    --img-hover: url("https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExMGFjODhiMjkwNTVlMjc4YTk4OTE1ZmM3NTlmMmMyMTBkYmI0MWJmOCZlcD12MV9pbnRlcm5hbF9naWZzX2dpZklkJmN0PWc/m5CNU8sBMeomY1EGtU/giphy.gif");
+    --img-circle: url("https://64.media.tumblr.com/d5271cd45319ee4fd7ef8f98ffd1b558/9b2e324b8a16a53c-9c/s400x600/8abcef17d0424ba0245188d8158319ac8f80ea67.pnj");
+    --outra-cor: #baa53b;
+}
+
+#fada .ghae {
+    --cor-grupo: #ff8097;
+}
+
+#feiticeiro .ghae {
+    --cor-grupo: #5b2491;
+}
+
+#jumper .ghae {
+    --cor-grupo: #79844d;
+}
+
+#kiang-shi .ghae {
+    --cor-grupo: #d9bea7;
+}
+
+#lobisomem .ghae {
+    --cor-grupo: #ff8d00;
+}
+
+#metamorfo .ghae {
+    --cor-grupo: #a66eb6;
+}
+
+#oneiro .ghae {
+    --cor-grupo: #ae4b2a;
+    --img-grupo: url("https://i.imgur.com/9KjH1TC.png");
+    --img-hover: url('https://i.imgur.com/9oPOI73.png') !important;
+    --img-circle: url('https://i.imgur.com/7hK120C.jpg');
+    --outra-cor: rgb(164, 65, 32);
+}
+
+
+#vampiro .ghae {
+    --cor-grupo: #821718;
+}
+
+#youkai .ghae {
+    --cor-grupo: #c76969;
+}
+
+.ghae-head {
+    display: grid;
+    height: 300px;
+    width: 600px;
+    background-image: var(--img-grupo);
+    background-color: var(--cor-grupo);
+    background-blend-mode: multiply;
+    background-size: cover;
+}
+
+.ghae-head:hover {
+    background-image: var(--img-hover);
+}
+
+.ghae-head h1 {
+    font-size: 28px;
+    font-weight: 500;
+    font-family: 'Karla', sans-serif;
+    color: #fff;
+    font-style: italic;
+    text-transform: uppercase;
+    position: relative;
+    top: 5px;
+    left: 260px;
+}
+
+.ghae-head b {
+    color: var(--cor-grupo);
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.ghae-img:before {
+    content: '';
+    display: grid;
+    clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);
+    width: 120px;
+    height: 120px;
+    background-image: var(--img-circle);
+    background-size: cover;
+}
+
+.ghae-img {
+    position: sticky;
+    top: 0px;
+    height: 120px;
+    width: 120px;
+    clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);
+    margin-left: -144px;
+    margin-top: -300px;
+    border: 5px solid var(--cor-grupo);
+    background: var(--cor-grupo);
+}
+
+.ghae-box {
+    position: relative;
+    background: rgba(14, 14, 14, 0.6);
+    height: 100px;
+    width: 250px;
+    top: 35px;
+    font-family: 'montserrat';
+    font-size: 9px;
+    letter-spacing: 1px;
+    color: rgba(255, 255, 255, 0.7);
+    line-height: 10px;
+    padding: 7px 7px 7px 7px;
+    text-align: justify;
+}
+
+.ghae-box2 {
+    visibility: hidden;
+    position: absolute;
+    background: rgba(14, 14, 14, 0.6);
+    height: 23px;
+    width: 200px;
+    margin-top: 170px;
+    margin-left: 400px;
+    font-family: 'montserrat';
+    font-size: 10px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: rgba(255, 255, 255, 1);
+    line-height: 10px;
+    text-align: center;
+    padding-top: 7px;
+}
+
+.ghae-box3 {
+    visibility: hidden;
+    position: absolute;
+    background: rgba(14, 14, 14, 0.6);
+    height: 23px;
+    width: 200px;
+    margin-top: 236px;
+    margin-left: 400px;
+    font-family: 'montserrat';
+    font-size: 10px;
+    letter-spacing: 1px;
+    color: rgba(255, 255, 255, 1);
+    font-weight: 500;
+    line-height: 10px;
+    text-align: center;
+    padding-top: 7px;
+}
+
+.ghae-box4 {
+    visibility: hidden;
+    position: absolute;
+    background: rgba(14, 14, 14, 0.6);
+    height: 23px;
+    width: 200px;
+    margin-top: 203px;
+    margin-left: 400px;
+    font-family: 'montserrat';
+    font-size: 10px;
+    letter-spacing: 1px;
+    color: rgba(255, 255, 255, 1);
+    font-weight: 500;
+    line-height: 10px;
+    text-align: center;
+    padding-top: 7px
+}
+
+.ghae-head:hover .ghae-box2 {
+    visibility: visible;
+}
+
+.ghae-head:hover .ghae-box3 {
+    visibility: visible;
+}
+
+.ghae-head:hover .ghae-box4 {
+    visibility: visible;
+}
+
+.ghae-head:hover .ghae-box {
+    visibility: hidden;
+}
+
+
+.ghae-text {
+    grid-area: texto;
+    outline: var(--cor-grupo) dashed 2px;
+    outline-offset: -20px;
+    min-height: 200px;
+    background-color: var(--cor-grupo);
+    background-image: linear-gradient(to top, #fff 0, 1%, rgba(0, 0, 0, 1) 45%, rgba(24.24, 24, 1) 75%, rgba(26.26, 26, 1) 100%);
+    background-blend-mode: multiply;
+    padding: 20px 80px;
+    font-size: 12px;
+    color: #fff;
+    font-family: 'Libre Franklin';
+    line-height: 13px;
+}
+
+.ghae-head a {
+    color: var(--cor-grupo);
+}
+
+.ghae-text e {
+    font-size: 11px;
+    font-style: oblique;
+    color: var(--cor-grupo);
+    line-height: 15px;
+
+}
+
+.ghae-text at {
+    font-size: 11px;
+    font-style: oblique;
+    color: var(--atlanti);
+    line-height: 15px}
+
+.ghae-text bx {
+    font-size: 11px;
+    font-style: oblique;
+    color: var(--bruxo);
+    line-height: 15px; }
+
+.ghae-text bs {
+    font-size: 11px;
+    font-style: oblique;
+    color: var(--banshee);
+    line-height: 15px}; 
+    
+.ghae-text aj {
+    font-size: 11px;
+    font-style: oblique;
+    color: var(--anjo);
+    line-height: 15px; }
+
+.ghae-text cc {
+    font-size: 11px;
+    font-style: oblique;
+    color: var(--caçador);
+    line-height: 15px; }
+
+.ghae-text de {
+    font-size: 11px;
+    font-style: oblique;
+    color: var(--demônio);
+    line-height: 15px; }
+
+.ghae-text di {
+    font-size: 11px;
+    font-style: oblique;
+    color: var(--dimon);
+    line-height: 15px; }
+
+.ghae-text dj {
+    font-size: 11px;
+    font-style: oblique;
+    color: var(--djinn);
+    line-height: 15px; }
+
+.ghae-text fd {
+    font-size: 11px;
+    font-style: oblique;
+    color: var(--fada);
+    line-height: 15px; }
+
+.ghae-text ft {
+    font-size: 11px;
+    font-style: oblique;
+    color: var(--feiticeiro);
+    line-height: 15px; }
+
+.ghae-text jp {
+    font-size: 11px;
+    font-style: oblique;
+    color: var(--jumper);
+    line-height: 15px; }
+
+.ghae-text kg {
+    font-size: 11px;
+    font-style: oblique;
+    color: var(--kiang-shi);
+    line-height: 15px; }
+
+.ghae-text lb {
+    font-size: 11px;
+    font-style: oblique;
+    color: var(--lobisomen);
+    line-height: 15px; }
+
+.ghae-text mt {
+    font-size: 11px;
+    font-style: oblique;
+    color: var(--metamorfo);
+    line-height: 15px; }
+
+.ghae-text on {
+    font-size: 11px;
+    font-style: oblique;
+    color: var(--oneiro);
+    line-height: 15px; }
+
+.ghae-text vp {
+    font-size: 11px;
+    font-style: oblique;
+    color: var(--vampiro);
+    line-height: 15px; }
+
+.ghae-text yk {
+    font-size: 11px;
+    font-style: oblique;
+    color: var(--youkai);
+    line-height: 15px; }
+
+.ghae-text o {
+    font-size: 11px;
+    font-style: oblique;
+    color: var(--outra-cor);
+    line-height: 15px;  
+}
+
+.texto {
+    white-space: pre-line;
+    margin-top: 200px;
+    padding: 50px 0px;
+
+}

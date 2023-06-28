@@ -132,7 +132,7 @@
     text-transform: uppercase;
     position: relative;
     top: 5px;
-    left: 260px;
+    text-align: right;
 }
 
 .ghae-head b {

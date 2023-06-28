@@ -173,7 +173,7 @@
         color: var(--sub-color);
     }
 
-    .luh-title > a[href="https://is.gd/rossr"] {
+    .luh-title > a[href="https://is.gd/rossr"]{
         display: block;
         color: var(--letter-color);
         text-decoration: none !important;

@@ -175,7 +175,8 @@
     font-size: 9px;
     letter-spacing: 1px;
     color: rgba(255, 255, 255, 0.7);
-    line-height: 10px;
+    min-height: 10px;
+    max-height: 100px;
     padding: 7px 7px 7px 7px;
     text-align: justify;
 }

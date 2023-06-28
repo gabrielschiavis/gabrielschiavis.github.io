@@ -24,173 +24,190 @@
     format("true.type");
 }
 
- .luh {
-  --width: 750px;
-  --image-size: 90px;
-  --border: #000;
-  --accent: #101a13;
-  --text-color: #dadada;
-  --letter-color: var(--cor-grupo);
-  --sub-color: #fff;
-  --anjo: #0f698c;
-  --atlanti: #80d2f2;
-  --banshee: #fb31d5;
-  --bruxo: #7d604f;
-  --caçador: #3eb595;
-  --demônio: #a3c0a2;
-  --dimon: #9acd32;
-  --djinn: #f9db4a;
-  --fada: #ff8097;
-  --feiticeiro: #5b2491;
-  --jumper: #79844d;
-  --kiang-shi: #d9bea7;
-  --lobisomem: #ff8d00;
-  --metamorfo: #a66eb6;
-  --oneiro: #ae4b2a;
-  --vampiro: #821718;
-  --youkai: #c76969;
-  margin: 15px 0;
+.luh {
+    --width: 750px;
+    --image-size: 90px;
+    --border: #000;
+    --accent: #101a13;
+    --text-color: #dadada;
+    --letter-color: var(--cor-grupo);
+    --sub-color: #fff;
+    --anjo: #0f698c;
+    --atlanti: #80d2f2;
+    --banshee: #fb31d5;
+    --bruxo: #7d604f;
+    --caçador: #3eb595;
+    --demônio: #a3c0a2;
+    --dimon: #9acd32;
+    --djinn: #f9db4a;
+    --fada: #ff8097;
+    --feiticeiro: #5b2491;
+    --jumper: #79844d;
+    --kiang-shi: #d9bea7;
+    --lobisomem: #ff8d00;
+    --metamorfo: #a66eb6;
+    --oneiro: #ae4b2a;
+    --vampiro: #821718;
+    --youkai: #c76969;
+    margin: 15px 0;
 }
 
-#anjo .luh { 
-     --cor-grupo: #0f698c;}
-
-#atlanti .luh { 
- --cor-grupo: #80d2f2;
-
-
-    #banshee .luh { 
-     --cor-grupo: #fb31d5;}
-
-    #bruxo .luh { 
-     --cor-grupo: #7d604f;}
-
-    #caçador .luh { 
-     --cor-grupo: #3eb595;}
-
-    #demônio .luh { 
-    --cor-grupo: #a3c0a2;}
-  
-    
-   #djinn .luh { 
-      --cor-grupo: #f9db4a;
-
-   }
-
-    #fada .luh { 
-     --cor-grupo: #ff8097;}
-
-    #feiticeiro .luh { 
-     --cor-grupo: #5b2491;}
-
-    #jumper .luh { 
-     --cor-grupo: #79844d;}
-
-    #kiang-shi .luh { 
-     --cor-grupo: #d9bea7;}
-
-    #lobisomem .luh { 
-     --cor-grupo: #ff8d00;}
-
-    #metamorfo .luh { 
-     --cor-grupo: #a66eb6;}
-
-    #oneiro .luh { 
-     --cor-grupo: #ae4b2a;
-}
-    
-
-    #vampiro .luh { 
-    --cor-grupo: #821718;
+#anjo .luh {
+    --cor-grupo: #0f698c;
 }
 
-    #youkai .luh { 
-    --cor-grupo: #c76969;} 
+#atlanti .luh {
+    --cor-grupo: #80d2f2;}
 
 
- .luh-container {
-  width: var(--width);
-  background: var(--accent);
-  position: relative;
-}
+    #banshee .luh {
+        --cor-grupo: #fb31d5;
+    }
 
- .luh-header {
-  width: 100%;
-  height: 250px;
-  position: relative;
-}
+    #bruxo .luh {
+        --cor-grupo: #7d604f;
+    }
 
- .luh-container::after {
-  display: block;
-  content: "";
-  width: 100%;
-  height: 100%;
-  outline: 10px solid var(--border);
-  outline-offset: -30px;
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-}
+    #caçador .luh {
+        --cor-grupo: #3eb595;
+    }
 
- .luh-header .luh-img {
-  width: 100%;
-  height: 100%;
-  background: center/cover;
-}
+    #demônio .luh {
+        --cor-grupo: #a3c0a2;
+    }
 
- .luh-header::after {
-  display: block;
-  content: "";
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(180deg, transparent, var(--accent));
-  position: absolute;
-  top: 0;
-  left: 0;
-}
 
- .luh-title {
-  margin-top: -100px;
-  position: relative;
-  text-align: center;
-  font: italic 8px/100% 'Arial', serif;
-  letter-spacing: 4px;
-  text-transform: uppercase;
-  color: var(--sub-color);
-}
+    #djinn .luh {
+        --cor-grupo: #f9db4a;
 
- .luh-title > a[href="https://is.gd/rossr"] {
-  display: block;
-  color: var(--letter-color);
-  text-decoration: none!important;
-  font: bold 80px/130% 'NT Josefine', serif;
-  letter-spacing: -5px;
-  mix-blend-mode: hard-light;
-}
+    }
 
- .luh-txt {
-  padding: 30px 100px 90px;
-  color: var(--text-color);
-  font: 11px/185% 'Open Sans', sans-serif;
-  letter-spacing: 1px;
-  text-align: justify;
-  position: relative;
-  z-index: 1;
-}
+    #fada .luh {
+        --cor-grupo: #ff8097;
+    }
 
-:after {
-  display: block;
-  content: "「R」";
-  font: bold 8px/12px 'Consolas';
-  color: #8e8e8e;
-  text-transform: uppercase;
-  opacity: .5;
-}
+    #feiticeiro .luh {
+        --cor-grupo: #5b2491;
+    }
 
-:hover::after {
-  content: "「ROSS RESOURCES」";
-}
+    #jumper .luh {
+        --cor-grupo: #79844d;
+    }
 
-.luh-txt e { color: var(--cor-grupo); font-size: 13px;font-family: Montserrat; font-weight: 900;} 
+    #kiang-shi .luh {
+        --cor-grupo: #d9bea7;
+    }
+
+    #lobisomem .luh {
+        --cor-grupo: #ff8d00;
+    }
+
+    #metamorfo .luh {
+        --cor-grupo: #a66eb6;
+    }
+
+    #oneiro .luh {
+        --cor-grupo: #ae4b2a;
+    }
+
+
+    #vampiro .luh {
+        --cor-grupo: #821718;
+    }
+
+    #youkai .luh {
+        --cor-grupo: #c76969;
+    }
+
+
+    .luh-container {
+        width: var(--width);
+        background: var(--accent);
+        position: relative;
+    }
+
+    .luh-header {
+        width: 100%;
+        height: 250px;
+        position: relative;
+    }
+
+    .luh-container::after {
+        display: block;
+        content: "";
+        width: 100%;
+        height: 100%;
+        outline: 10px solid var(--border);
+        outline-offset: -30px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+
+    .luh-header .luh-img {
+        width: 100%;
+        height: 100%;
+        background: center/cover;
+    }
+
+    .luh-header::after {
+        display: block;
+        content: "";
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(180deg, transparent, var(--accent));
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    .luh-title {
+        margin-top: -100px;
+        position: relative;
+        text-align: center;
+        font: italic 8px/100% 'Arial', serif;
+        letter-spacing: 4px;
+        text-transform: uppercase;
+        color: var(--sub-color);
+    }
+
+    .luh-title>a[href="https://is.gd/rossr"] {
+        display: block;
+        color: var(--letter-color);
+        text-decoration: none !important;
+        font: bold 80px/130% 'NT Josefine', serif;
+        letter-spacing: -5px;
+        mix-blend-mode: hard-light;
+    }
+
+    .luh-txt {
+        padding: 30px 100px 90px;
+        color: var(--text-color);
+        font: 11px/185% 'Open Sans', sans-serif;
+        letter-spacing: 1px;
+        text-align: justify;
+        position: relative;
+        z-index: 1;
+    }
+
+    :after {
+        display: block;
+        content: "「R」";
+        font: bold 8px/12px 'Consolas';
+        color: #8e8e8e;
+        text-transform: uppercase;
+        opacity: .5;
+    }
+
+    :hover::after {
+        content: "「ROSS RESOURCES」";
+    }
+
+    .luh-txt e {
+        color: var(--cor-grupo);
+        font-size: 13px;
+        font-family: Montserrat;
+        font-weight: 900;
+    }

@@ -254,7 +254,6 @@
 
 
 .ghae-text {
-    grid-area: texto;
     outline: var(--cor-grupo) dashed 2px;
     outline-offset: -20px;
     min-height: 200px;

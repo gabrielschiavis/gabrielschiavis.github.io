@@ -171,7 +171,7 @@
     position: relative;
     background: rgba(14, 14, 14, 0.6);
     width: 250px;
-    top: 0px;
+    margin-top: -50px;
     font-family: 'montserrat';
     font-size: 9px;
     letter-spacing: 1px;

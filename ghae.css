@@ -387,7 +387,9 @@
     line-height: 15px;  
 }
 
-.ghae text i {color: var(--cor-grupo);}
+.ghae-text i {
+    color: var(--cor-grupo);
+}
 
 .texto {
     white-space: pre-line;

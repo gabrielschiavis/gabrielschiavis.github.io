@@ -192,19 +192,6 @@
         z-index: 1;
     }
 
-    :after {
-        display: block;
-        content: "「R」";
-        font: bold 8px/12px 'Consolas';
-        color: #8e8e8e;
-        text-transform: uppercase;
-        opacity: .5;
-    }
-
-    :hover::after {
-        content: "「ROSS RESOURCES」";
-    }
-
     .luh-txt e {
         color: var(--cor-grupo);
         font-size: 13px;

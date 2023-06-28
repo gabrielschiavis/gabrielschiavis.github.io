@@ -169,7 +169,7 @@
 .ghae-box {
     position: relative;
     background: rgba(14, 14, 14, 0.6);
-    height: 100px;
+    min-height: 10px;
     width: 250px;
     top: 45px;
     font-family: 'montserrat';

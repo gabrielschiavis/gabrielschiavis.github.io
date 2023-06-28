@@ -117,6 +117,7 @@
     background-color: var(--cor-grupo);
     background-blend-mode: multiply;
     background-size: cover;
+    grid-template-rows: minmax(10px, 200px);
 }
 
 .ghae-head:hover {

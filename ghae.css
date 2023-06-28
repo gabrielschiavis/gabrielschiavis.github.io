@@ -54,8 +54,8 @@
 
 #dimon .ghae {
     --cor-grupo: #9acd32;
-    --img-grupo: url("https://i.imgur.com/KVQGQ1A.png")
-    --img-hover: url('https://i.imgur.com/ksjuDJ7.png')
+    --img-grupo: url("https://i.imgur.com/KVQGQ1A.png");
+    --img-hover: url('https://i.imgur.com/ksjuDJ7.png');
     --img-circle: url('https://i.imgur.com/D0zVptW.jpg');
     --outra-cor: rgb(144, 195, 40);
 }

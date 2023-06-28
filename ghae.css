@@ -111,6 +111,7 @@
 
 .ghae-head {
     display: grid;
+    grid-template-rows: auto;
     height: 300px;
     width: 600px;
     background-image: var(--img-grupo);

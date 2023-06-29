@@ -162,3 +162,5 @@
  .gabreucon ig {text-align: center; }
 
 .gabreucon ig::before{ display: block; font-size:24px; margin: 0px auto; content: "༄༄༄"; color: var(--cor-grupo);}
+
+default-gays {}

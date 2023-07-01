@@ -26,6 +26,13 @@
     --youkai: #c76969;
 }
 
+#anjo .ghae {
+    --cor-grupo: #0f698c;
+    --img-grupo: url('https://64.media.tumblr.com/486c24ef32ddad3fc57c17179abb7e73/b7a2b207554fe32a-55/s1280x1920/75714f64df81890f48587aa0fdd39efe7214d98e.pnj');
+    --img-hover: url("https://i.imgur.com/m8mFvUb.png");
+    --img-circle: url('https://i.imgur.com/oUqsh7F.png');
+    --outra-cor: rgb(0, 90, 125)
+
 #atlanti .ghae {
     --cor-grupo: #80d2f2;
     --img-grupo: url('https://i.imgur.com/XzW0nhZ.png');
@@ -285,6 +292,13 @@
     color: var(--atlanti);
     line-height: 15px}
 
+
+    .ghae-text aj {
+    font-size: 11px;
+    font-style: oblique;
+    color: var(--anjos);
+    line-height: 15px}
+    
 .ghae-text bx {
     font-size: 11px;
     font-style: oblique;

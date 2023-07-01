@@ -412,7 +412,7 @@
 .ghae-text ig::before{ 
     display: block; 
     font-size:24px; 
-    margin-left: 150px; 
+    margin-left: 130px; 
     content: "༄༄༄"; 
     color: var(--cor-grupo);
 }

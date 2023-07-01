@@ -412,3 +412,12 @@
     padding: 50px 0px;
 
 }
+
+
+.ghae-text ig::before{ 
+    display: block; 
+    font-size:24px; 
+    margin: 0px auto; 
+    content: "༄༄༄"; 
+    color: var(--cor-grupo);
+}

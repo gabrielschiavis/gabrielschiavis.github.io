@@ -259,6 +259,9 @@
     visibility: hidden;
 }
 
+.ghae-head:hover h1 {
+    visibility: hidden;
+}
 
 .ghae-text {
     outline: var(--cor-grupo) dashed 2px;

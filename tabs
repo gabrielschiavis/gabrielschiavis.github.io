@@ -1,0 +1,319 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+.fight {
+
+    width: 550px;
+
+    margin: 30px auto;
+
+    display: grid;
+
+    grid-template-rows: 200px auto;
+
+    grid-template-areas:
+
+        "fight-head fight-img" "fight-post fight-post";
+
+}
+
+#hermes .fight {
+
+    --cor-grupo: #83A892;
+    --rgbacolor: rgba(131, 168, 146, 0.6)
+}
+
+#atlanti .fight {
+
+    --cor-grupo: #80d2f2;
+}
+
+#banshee .fight {
+
+    --cor-grupo: #fb31d5;
+}
+
+#bruxo .fight {
+
+    --cor-grupo: #7d604f;
+}
+
+#caçador .fight {
+
+    --cor-grupo: #3eb595;
+}
+
+#demônio .fight {
+
+    --cor-grupo: #a3c0a2;
+
+}
+
+#dimon .fight {
+
+    --cor-grupo: #9acd32;
+}
+
+
+
+#djinn .fight {
+
+    --cor-grupo: #f9db4a;
+}
+
+#fada .fight {
+
+    --cor-grupo: #ff8097;
+}
+
+#feiticeiro .fight {
+
+    --cor-grupo: #5b2491;
+}
+
+#jumper .fight {
+
+    --cor-grupo: #79844d;
+}
+
+#kiang-shi .fight {
+
+    --cor-grupo: #d9bea7;
+}
+
+#lobisomem .fight {
+
+    --cor-grupo: #ff8d00;
+}
+
+#metamorfo .fight {
+
+    --cor-grupo: #a66eb6;
+}
+
+#oneiro .fight {
+
+    --cor-grupo: #ae4b2a;
+}
+
+
+
+#vampiro .fight {
+
+    --cor-grupo: #821718;
+}
+
+#youkai .fight {
+
+    --cor-grupo: #c76969;
+}
+
+.fight-header {
+
+    grid-area: fight-head;
+
+    display: grid;
+
+    background: var(--fundo2);
+    
+    color: #fff;
+
+    font-size: 14px;
+
+    width: 200px;
+
+    clip-path: polygon(0 0, 100% 0, 65% 100%, 0% 100%);
+
+    grid-template-areas:
+
+        "com" "onde" "quando";
+
+}
+
+.fight-quando {
+
+    grid-area: quando;
+
+    font-family: 'Karla', sans-serif;
+    
+    font-size: 10px;
+
+    text-transform: uppercase;
+
+    background: var(--cor-grupo);
+
+    letter-spacing: 1px;
+
+    color: #e1e1e1;
+
+    padding: 5px;
+
+    text-align: center;
+
+    margin-bottom: 90px;
+
+}
+
+.fight-onde {
+
+    grid-area: onde;
+
+    font-size: 10px;
+
+    font-family: 'Karla', sans-serif;
+    
+    text-transform: uppercase;
+
+    background: var(--cor-grupo);
+
+    letter-spacing: 1px;
+
+    color: #e1e1e1;
+
+    padding: 5px;
+
+    text-align: center;
+
+    margin-bottom: 5px;
+
+}
+
+.fight-com {
+
+    grid-area: com;
+
+    font-size: 10px;
+
+    font-family: 'Karla', sans-serif;
+    
+    text-transform: uppercase;
+
+    background: var(--cor-grupo);
+
+    letter-spacing: 1px;
+
+    color: #e1e1e1;
+
+    padding: 5px;
+
+    text-align: center;
+
+    margin-bottom: 5px;
+
+    margin-top: 30px;
+
+}
+
+.fight-img {
+
+    grid-area: fight-img;
+
+    width: 440px;
+
+    background-image: var(--imagem);
+
+    margin-left: -75px;
+
+    background-color: var(--cor-grupo);
+
+    background-size: cover;
+
+    background-blend-mode: multiply;
+
+    background-repeat: no-repeat;
+
+}
+
+.fight-img:hover{ 
+
+    background-image: var(--imagem2);
+}
+
+.fight-img h2 {
+
+    font-size: 8px;
+
+    text-transform: uppercase;
+
+
+    font-family: 'Karla', sans-serif;
+
+    font-weight: 400;
+
+    background: #00000057;
+
+    letter-spacing: 2px;
+
+    color: #e1e1e1;
+
+    padding: 10px 0px;
+
+    text-align: center;
+    
+    margin-top: 80px;
+
+}
+
+.fightpost {
+
+    grid-area: fight-post;
+
+    background-color:var(--fundo3);
+
+    border: 15px double;
+
+    border-color: var(--cor-grupo);
+ 
+    line-height: 14px;
+
+    font-family: 'montserrat';
+
+    font-size: 12px;
+
+    padding: 35px 70px;
+
+    color: var(--ctexto1);
+
+    text-align: justify;
+}
+
+input.ftabs { 
+    display: none;}
+
+input.ftabs + label {
+  line-height: 40px;
+  padding: 0px 20px;
+  float: left;
+
+  background: #ff0000;
+  color: #fff;
+  cursor: pointer;
+  transition: background ease-in-out .3s;}
+
+input.ftabs:checked + label {
+  color: #000;
+  background: #eee; }
+
+input.ftabs + label + p {
+  width: 100%;
+  opacity: 0;
+  position: absolute;
+  top: 40px;
+  left: 0;
+  height: 300px;
+  padding: 10px;
+  z-index: -1;
+  transition: opacity ease-in-out .3s;
+}
+input.ftabs:checked + label + p{
+  opacity: 1;
+  z-index: 1000;
+}
+
+.fightpost e {
+    font-weight: 800;
+    color: var(--cor-grupo);
+}
+
+.fightpost i {
+    color: var(--cor-grupo);
+}

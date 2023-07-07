@@ -296,7 +296,7 @@ input.ftabs:checked + label {
 input.ftabs + label + p {
   width: 100%;
   opacity: 0;
-  position: absolute;
+  position: relative;
   top: 40px;
   left: 0;
   height: 300px;

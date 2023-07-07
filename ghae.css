@@ -415,7 +415,7 @@
 .ghae-text ig::before{ 
     display: block; 
     font-size:24px; 
-    padding: 0 193px; 
+    padding: 0 190px; 
     content: "༄༄༄"; 
     color: var(--cor-grupo);
 }

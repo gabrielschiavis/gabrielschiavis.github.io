@@ -404,27 +404,27 @@
 }
 
 .renas-hover:hover .renas-icon1 {
-    visibility: visible;
+    opacity: 1;
     transition: .4s
 }
 
 .renas-hover:hover .renas-icon2 {
-    visibility: visible;
+    opacity: 1;
     transition: .8s
 }
 
 .renas-hover:hover .renas-icon3 {
-    visibility: visible;
+    opacity: 1;
     transition: 1.2s;
 }
 
 .renas-hover:hover .renas-icon4 {
-    visibility: visible;
+    opacity: 1;
     transition: 1.6
 }
 
 .renas-icon1 {
-    visibility: hidden;
+    opacity: 0;
     position: absolute;
     top: 120px;
     left: 10px;
@@ -441,7 +441,7 @@
 }
 
 .renas-icon2 {
-    visibility: hidden;
+    opacity: 0;
     position: absolute;
     top: 155px;
     left: 10px;
@@ -458,7 +458,7 @@
 }
 
 .renas-icon3 {
-    visibility: hidden;
+    opacity: 0;
     position: absolute;
     top: 180px;
     left: 10px;
@@ -475,7 +475,7 @@
 }
 
 .renas-icon4 {
-    visibility: hidden;
+    opacity: 0;
     position: absolute;
     top: 205px;
     left: 10px;

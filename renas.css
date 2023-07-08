@@ -318,10 +318,10 @@
 
 .renas-head h1 {
     opacity: 1;
-    width: fit-content;
+    width: 180px;
     position: relative;
-    top: 50%;
-    left: 50%;
+    top: calc(50% - 12px);
+    left: calc(50% - 100px);
     font-family: 'Averia Serif Libre';
     font-size: 13px;
     color: var(--ctexto1), #eee;
@@ -334,7 +334,7 @@
 }
 
 [data-theme="dark"] .renas-head h1 {
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.8);
 }
 
 [data-theme="light"] .renas-head h1 {
@@ -342,7 +342,7 @@
 }
 
 [data-theme="dark"] .renas-head h2 {
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: rgba(0, 0, 0, 0.7);
 }
 
 [data-theme="light"] .renas-head h2 {
@@ -352,10 +352,9 @@
 .renas h2 {
     opacity: 1;
     line-height: 10px;
-    width: 200px;
+    width: 250px;
     border-radius: 10%;
-    min-height: 20px;
-    max-height: 145px;
+    min-height: 41px;
     font-family: 'Oswald', sans-serif;
     font-size: 10px;
     color: var(--ctexto1), #eee;
@@ -364,8 +363,8 @@
     text-align: justify;
     padding: 5px 10px;
     position: relative;
-    top: 65%;
-    left: 50%;
+    top: calc(53% - 25px);
+    left: calc(50% - 130px);
 }
 
 .renas-texto {

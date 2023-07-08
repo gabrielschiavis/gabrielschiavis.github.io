@@ -309,7 +309,7 @@
 .renas-head h1 {
     position: relative;
     top: 20px;
-    font-family: 'Averia Serif Libre', cursive;
+    font-family: 'Averia Serif Libre';
     font-size: 24px;
     color: var(--ctexto1), #eee;
     font-style: italic;

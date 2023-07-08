@@ -405,12 +405,12 @@
 
 .renas-hover:hover .renas-icon1 {
     opacity: 1;
-    transition: .4s
+    transition: 0.4s
 }
 
 .renas-hover:hover .renas-icon2 {
     opacity: 1;
-    transition: .8s
+    transition: 0.8s
 }
 
 .renas-hover:hover .renas-icon3 {
@@ -420,7 +420,7 @@
 
 .renas-hover:hover .renas-icon4 {
     opacity: 1;
-    transition: 1.6
+    transition: 1.6s;
 }
 
 .renas-icon1 {

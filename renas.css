@@ -1,0 +1,476 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Ysabeau+Infant:ital,wght@1,1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+.renas {
+    display: block;
+    margin: 20px auto;
+    width: 600px;
+}
+
+#deuses .renas {
+    --cor-grupo: var(--deuses);
+}
+
+#estagiarios .renas {
+    --cor-grupo: var(--estagiarios);
+}
+
+#legados .renas {
+    --cor-grupo: var(--legados);
+}
+
+#indefinidos .renas {
+    --cor-grupo: var(--indefinidos);
+}
+
+#afrodite .renas {
+    --cor-grupo: var(--afrodite);
+}
+
+#apolo .renas {
+    --cor-grupo: var(--apolo);
+}
+
+#ares .renas {
+    --cor-grupo: var(--ares);
+}
+
+#aristeu .renas {
+    --cor-grupo: var(--aristeu);
+}
+
+#astraeus .renas {
+    --cor-grupo: var(--astraeus);
+}
+
+#atena .renas {
+    --cor-grupo: var(--atena);
+}
+
+#belona .renas {
+    --cor-grupo: var(--belona);
+}
+
+#demeter .renas {
+    --cor-grupo: var(--demeter);
+}
+
+#despina .renas {
+    --cor-grupo: var(--despina);
+}
+
+#dionisio .renas {
+    --cor-grupo: var(--dionisio);
+}
+
+#eris .renas {
+    --cor-grupo: var(--eris);
+}
+
+#eros .renas {
+    --cor-grupo: var(--eros);
+}
+
+#eter .renas {
+    --cor-grupo: var(--eter);
+}
+
+#hades .renas {
+    --cor-grupo: var(--hades);
+}
+
+#hecate .renas {
+    --cor-grupo: var(--hecate);
+}
+
+#hefesto .renas {
+    --cor-grupo: var(--hefesto);
+}
+
+#heracles .renas {
+    --cor-grupo: var(--heracles);
+}
+
+#hermes .renas {
+    --cor-grupo: var(--hermes);
+}
+
+#hipnos .renas {
+    --cor-grupo: var(--hipnos);
+}
+
+#jano .renas {
+    --cor-grupo: var(--jano);
+}
+
+#kairos .renas {
+    --cor-grupo: var(--kairos);
+}
+
+#melinoe .renas {
+    --cor-grupo: var(--melinoe);
+}
+
+#nemesis .renas {
+    --cor-grupo: var(--nemesis);
+}
+
+#nice .renas {
+    --cor-grupo: var(--nice);
+}
+
+#pandora .renas {
+    --cor-grupo: var(--pandora);
+}
+
+#persefone .renas {
+    --cor-grupo: var(--persefone);
+}
+
+#poseidon .renas {
+    --cor-grupo: var(--poseidon);
+}
+
+#psique .renas {
+    --cor-grupo: var(--psique);
+}
+
+#tanatos .renas {
+    --cor-grupo: var(--tanatos);
+}
+
+#zeus .renas {
+    --cor-grupo: var(--zeus);
+}
+
+#mortos .renas {
+    --cor-grupo: var(--mortos);
+}
+
+#iris .renas {
+    --cor-grupo: var(--iris);
+}
+
+#artemis .renas {
+    --cor-grupo: var(--artemis);
+}
+
+.renas-post ds {
+    color: var(--deuses);
+}
+
+.renas-post lg {
+    color: var(--legados);
+}
+
+.renas-post in {
+    color: var(--indefinidos);
+}
+
+.renas-post af {
+    color: var(--afrodite);
+}
+
+.renas-post ap {
+    color: var(--apolo);
+}
+
+.renas-post ar {
+    color: var(--ares);
+}
+
+.renas-post at {
+    color: var(--atena);
+}
+
+.renas-post bn {
+    color: var(--belona);
+}
+
+.renas-post dm {
+    color: var(--demeter);
+}
+
+.renas-post dp {
+    color: var(--despina);
+}
+
+.renas-post dn {
+    color: var(--dionisio);
+}
+
+.renas-post eri {
+    color: var(--eris);
+}
+
+.renas-post ero {
+    color: var(--eros);
+}
+
+.renas-post et {
+    color: var(--eter);
+}
+
+.renas-post hd {
+    color: var(--hades);
+}
+
+.renas-post hc {
+    color: var(--hecate);
+}
+
+.renas-post hf {
+    color: var(--hefesto);
+}
+
+.renas-post hr {
+    color: var(--heracles);
+}
+
+.renas-post hm {
+    color: var(--hermes);
+}
+
+.renas-post hn {
+    color: var(--hipnos);
+}
+
+.renas-post jn {
+    color: var(--jano);
+}
+
+.renas-post kr {
+    color: var(--kairos);
+}
+
+.renas-post ml {
+    color: var(--melinoe);
+}
+
+.renas-post nm {
+    color: var(--nemesis);
+}
+
+.renas-post nc {
+    color: var(--nice);
+}
+
+.renas-post pd {
+    color: var(--pandora);
+}
+
+.renas-post pr {
+    color: var(--persefone);
+}
+
+.renas-post ps {
+    color: var(--poseidon);
+}
+
+.renas-post pq {
+    color: var(--psique);
+}
+
+.renas-post tn {
+    color: var(--tanatos);
+}
+
+.renas-post zs {
+    color: var(--zeus);
+}
+
+.renas-post mr {
+    color: var(--mortos);
+}
+
+.renas-post ir {
+    color: var(--iris);
+}
+
+.renas-post am {
+    color: var(--artemis);
+}
+
+.renas-post e {
+    color: var(--cor-grupo);
+    font-style: italic; 
+  
+}
+
+.renas-head {
+    border-radius: 10px 0 10px 0;
+    background: var(--img-grupo), var(--cor-grupo);
+    background-blend-mode: multiply;
+    height: 350px;
+    background-size: cover;
+}
+
+.renas-head h1 {
+    position: relative;
+    top: 20px;
+    font-family: 'Ysabeau', sans-serif;
+    font-size: 24px;
+    color: var(--ctexto1), #eee;
+    font-style: italic;
+    font-weight: 100;
+    text-align: center;
+    padding: 5px 10px;
+    text-transform: uppercase;
+}
+
+[data-theme="dark"] .renas-head h1 {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+[data-theme="light"] .renas-head h1 {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+[data-theme="dark"] .renas-head h2 {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+[data-theme="light"] .renas-head h2 {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.renas h2 {
+    line-height: 10px;
+    width: 200px;
+    border-radius: 0% 10% 10% 0;
+    min-height: 20px;
+    max-height: 145px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 10px;
+    color: var(--ctexto1), #eee;
+    font-weight: 300;
+    text-justify: center;
+    text-align: justify;
+    padding: 5px 10px;
+    position: relative;
+    top: 200px;
+    left: 0px;
+}
+
+.renas-texto {
+    position: relative;
+    min-height: 350px;
+    background: var(--fundo2);
+}
+
+.renas-post {
+    font-family: Calibri;
+    font-size: 12px;
+    text-align: justify;
+    padding: 30px 80px;
+    margin: 0px 25px 30px 25px;
+}
+
+.renas-icon:before {
+    content: '';
+    display: grid;
+    clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);
+    width: 120px;
+    height: 120px;
+    background-image: var(--img-icon);
+    background-size: cover;
+}
+
+.renas-icon {
+    position: absolute;
+    top: 10px;
+    left: -60px;
+    height: 120px;
+    width: 120px;
+    clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);
+    border: 5px solid var(--cor-grupo);
+    background: var(--cor-grupo);
+}
+
+.renas-hover:hover .renas-icon1 {
+    visibility: visible;
+    transition: .4s
+}
+
+.renas-hover:hover .renas-icon2 {
+    visibility: visible;
+    transition: .8s
+}
+
+.renas-hover:hover .renas-icon3 {
+    visibility: visible;
+    transition: 1.2s;
+}
+
+.renas-hover:hover .renas-icon4 {
+    visibility: visible;
+    transition: 1.6
+}
+
+.renas-icon1 {
+    visibility: hidden;
+    position: absolute;
+    top: 130px;
+    left: -50px;
+    min-height: 10px;
+    width: 100px;
+    padding: 5px;
+    text-align: center;
+    line-height: 10px;
+    font-size: 9px;
+    letter-spacing: 1px;
+    font-family: 'Karla', sans-serif;
+    border-radius: 10px;
+    background: var(--cor-grupo);
+}
+
+.renas-icon2 {
+    visibility: hidden;
+    position: absolute;
+    top: 165px;
+    left: -50px;
+    min-height: 10px;
+    width: 100px;
+    padding: 5px;
+    text-align: center;
+    line-height: 10px;
+    font-size: 9px;
+    letter-spacing: 1px;
+    font-family: 'Karla', sans-serif;
+    border-radius: 10px;
+    background: var(--cor-grupo);
+}
+
+.renas-icon3 {
+    visibility: hidden;
+    position: absolute;
+    top: 190px;
+    left: -50px;
+    min-height: 10px;
+    line-height: 10px;
+    width: 100px;
+    padding: 5px;
+    text-align: center;
+    font-size: 9px;
+    letter-spacing: 1px;
+    font-family: 'Karla', sans-serif;
+    border-radius: 10px;
+    background: var(--cor-grupo);
+}
+
+.renas-icon4 {
+    visibility: hidden;
+    position: absolute;
+    top: 215px;
+    left: -50px;
+    min-height: 10px;
+    line-height: 10px;
+    width: 100px;
+    padding: 5px;
+    text-align: center;
+    font-size: 9px;
+    letter-spacing: 1px;
+    font-family: 'Karla', sans-serif;
+    border-radius: 10px;
+    background: var(--cor-grupo);
+}

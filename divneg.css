@@ -220,7 +220,7 @@
     background-blend-mode: multiply;
 
     background-repeat: no-repeat;
-
+     transition: 1s;
 }
 
 .ric-img:hover{ 

@@ -124,6 +124,7 @@
     background-color: var(--cor-grupo);
     background-blend-mode: multiply;
     background-size: cover;
+    transition: 1s;
 }
 
 .ghae-head:hover {

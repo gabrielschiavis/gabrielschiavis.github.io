@@ -379,7 +379,7 @@
 
 .renas-icon {
     position: absolute;
-    left: -30px;
+    left: 0px;
     height: 120px;
     width: 120px;
     clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);
@@ -411,7 +411,7 @@
     visibility: hidden;
     position: absolute;
     top: 120px;
-    left: -20px;
+    left: 20px;
     min-height: 10px;
     width: 100px;
     padding: 5px;
@@ -428,7 +428,7 @@
     visibility: hidden;
     position: absolute;
     top: 155px;
-    left: -20px;
+    left: 20px;
     min-height: 10px;
     width: 100px;
     padding: 5px;
@@ -444,8 +444,8 @@
 .renas-icon3 {
     visibility: hidden;
     position: absolute;
-    top: 190px;
-    left: -20px;
+    top: 180px;
+    left: 20px;
     min-height: 10px;
     line-height: 10px;
     width: 100px;
@@ -461,7 +461,7 @@
 .renas-icon4 {
     visibility: hidden;
     position: absolute;
-    top: 215px;
+    top: 205px;
     left: 20px;
     min-height: 10px;
     line-height: 10px;

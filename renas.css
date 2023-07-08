@@ -357,6 +357,7 @@
     position: relative;
     min-height: 350px;
     background: var(--fundo2);
+    border-left:1px var(cor--grupo);
 }
 
 .renas-post {

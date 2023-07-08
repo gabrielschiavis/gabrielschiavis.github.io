@@ -310,11 +310,12 @@
     width: fit-content;
     position: relative;
     top: 50%;
+    left: 50%;
     font-family: 'Averia Serif Libre';
-    font-size: 11px;
+    font-size: 13px;
     color: var(--ctexto1), #eee;
     line-height: 12px;
-    font-style: italic;
+    font-style: italic, bold;
     font-weight: 200;
     text-align: center;
     padding: 6px 10px;

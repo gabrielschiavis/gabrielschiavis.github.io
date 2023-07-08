@@ -411,7 +411,7 @@
     visibility: hidden;
     position: absolute;
     top: 120px;
-    left: 20px;
+    left: 10px;
     min-height: 10px;
     width: 100px;
     padding: 5px;
@@ -428,7 +428,7 @@
     visibility: hidden;
     position: absolute;
     top: 155px;
-    left: 20px;
+    left: 10px;
     min-height: 10px;
     width: 100px;
     padding: 5px;
@@ -445,7 +445,7 @@
     visibility: hidden;
     position: absolute;
     top: 180px;
-    left: 20px;
+    left: 10px;
     min-height: 10px;
     line-height: 10px;
     width: 100px;
@@ -462,7 +462,7 @@
     visibility: hidden;
     position: absolute;
     top: 205px;
-    left: 20px;
+    left: 10px;
     min-height: 10px;
     line-height: 10px;
     width: 100px;

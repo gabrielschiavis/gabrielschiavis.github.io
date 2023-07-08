@@ -340,7 +340,7 @@
 .renas h2 {
     line-height: 10px;
     width: 200px;
-    border-radius: 0% 10% 10% 0;
+    border-radius: 10%;
     min-height: 20px;
     max-height: 145px;
     font-family: 'Oswald', sans-serif;
@@ -351,8 +351,8 @@
     text-align: justify;
     padding: 5px 10px;
     position: relative;
-    top: 200px;
-    left: 0px;
+    top: 65%;
+    left: 50%;
 }
 
 .renas-texto {

@@ -307,15 +307,17 @@
 }
 
 .renas-head h1 {
+    width: fit-content;
     position: relative;
-    top: 20px;
-    font-family: 'Josefin Sans';
-    font-size: 24px;
+    top: 50%;
+    font-family: 'Averia Serif Libre';
+    font-size: 11px;
     color: var(--ctexto1), #eee;
+    line-height: 12px;
     font-style: italic;
-    font-weight: 700;
+    font-weight: 200;
     text-align: center;
-    padding: 5px 10px;
+    padding: 6px 10px;
     text-transform: uppercase;
 }
 

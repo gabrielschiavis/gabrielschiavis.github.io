@@ -22,9 +22,11 @@
     --rgbacolor: rgba(131, 168, 146, 0.6)
 }
 
-#atlanti .ric {
+#nice .ric {
 
-    --cor-grupo: #80d2f2;
+    --cor-grupo: var(--nice);
+     --imagem: url('https://i.imgur.com/CJWfgBJ.png');
+    --imagem2: url("https://i.imgur.com/owIE3x1.png");
 }
 
 #banshee .ric {

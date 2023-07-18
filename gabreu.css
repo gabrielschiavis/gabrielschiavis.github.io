@@ -323,7 +323,7 @@
     top: calc(50% - 12px);
     left: calc(50% - 100px);
     font-family: 'Averia Serif Libre';
-    font-size: 13px;
+    font-size: 15px;
     color: var(--ctexto1), #eee;
     line-height: 12px;
     font-style: italic, bold;
@@ -356,7 +356,7 @@
     border-radius: 10%;
     min-height: 41px;
     font-family: 'Oswald', sans-serif;
-    font-size: 10px;
+    font-size: 11px;
     color: var(--ctexto1), #eee;
     font-weight: 300;
     text-justify: center;
@@ -376,7 +376,7 @@
 
 .gabreu-post {
     font-family: Calibri;
-    font-size: 12px;
+    font-size: 14px;
     text-align: justify;
     padding: 30px 60px;
     margin: 0px 25px 30px 25px;

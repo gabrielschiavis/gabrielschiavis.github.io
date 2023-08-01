@@ -144,7 +144,7 @@
     padding-right: 10px;
 }
 
-#anjo .ghae-head::before{
+#anjo .ghae-head h2::before{
     content: url('https://i.imgur.com/VjzSLPl.png');
     filter: hue-rotate(270deg)
 }

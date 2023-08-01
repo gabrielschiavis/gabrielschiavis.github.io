@@ -438,3 +438,11 @@
     content: "༄༄༄"; 
     color: var(--cor-grupo);
 }
+
+#dimon .ghae-text ig::before{ 
+    content:url('https://i.imgur.com/kSyLuig.png'); 
+    filter: hue-rotate(90deg); 
+    height: 20px; 
+    width: 20px;
+}
+

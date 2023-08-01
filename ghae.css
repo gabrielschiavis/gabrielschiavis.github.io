@@ -144,6 +144,11 @@
     padding-right: 10px;
 }
 
+#anjo .ghae-head::before{
+    content: url('https://i.imgur.com/VjzSLPl.png');
+    filter: hue-rotate(270deg)
+}
+
 .ghae-head h2 {display:none;
     font-size: 36px;
     font-family: 'Karla', sans-serif;

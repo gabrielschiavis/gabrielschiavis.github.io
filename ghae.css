@@ -144,6 +144,25 @@
     padding-right: 10px;
 }
 
+.ghae-head h2 {display:none;
+    font-size: 36px;
+    font-family: 'Karla', sans-serif;
+    color: #fff;
+    font-style: italic;
+    text-transform: uppercase;
+    position: relative;
+    top: 5px;
+    text-align: right;
+    padding-right: 10px;
+    font-weight: 700;
+    font-style: italic;
+opacity: .6;
+              } 
+
+.ghae-head:hover h2{
+    display:block;
+}
+
 .ghae-head b {
     color: var(--cor-grupo);
     border-top: 1px solid #fff;
@@ -181,7 +200,7 @@
     top: 50px;
     font-family: 'montserrat';
     font-size: 9px;
-    letter-spacing: 1px;
+    letter  -spacing: 1px;
     color: rgba(255, 255, 255, 0.7);
     min-height: 10px;
     max-height: 100px;

@@ -162,3 +162,101 @@
  .gabreucon ig {text-align: center; }
 
 .gabreucon ig::before{ display: block; font-size:24px; margin: 0px auto; content: "༄༄༄"; color: var(--cor-grupo);}
+
+
+    .gabreupost aj {
+    font-size: 11px;
+    font-style: oblique;
+    color: var(--anjo);
+    line-height: 15px}
+    
+.gabreupost bx {
+    font-size: 11px;
+    font-style: oblique;
+    color: var(--bruxo);
+    line-height: 15px; }
+
+.gabreupost bs {
+    font-size: 11px;
+    font-style: oblique;
+    color: var(--banshee);
+    line-height: 15px; }
+    
+
+.gabreupost cc {
+    font-size: 11px;
+    font-style: oblique;
+    color: var(--caçador);
+    line-height: 15px; }
+
+.gabreupost de {
+    font-size: 11px;
+    font-style: oblique;
+    color: var(--demônio);
+    line-height: 15px; }
+
+.gabreupost di {
+    font-size: 11px;
+    font-style: oblique;
+    color: var(--dimon);
+    line-height: 15px; }
+
+.gabreupost dj {
+    font-size: 11px;
+    font-style: oblique;
+    color: var(--djinn);
+    line-height: 15px; }
+
+.gabreupost fd {
+    font-size: 11px;
+    font-style: oblique;
+    color: var(--fada);
+    line-height: 15px; }
+
+.gabreupost ft {
+    font-size: 11px;
+    font-style: oblique;
+    color: var(--feiticeiro);
+    line-height: 15px; }
+
+.gabreupost jp {
+    font-size: 11px;
+    font-style: oblique;
+    color: var(--jumper);
+    line-height: 15px; }
+
+.gabreupost kg {
+    font-size: 11px;
+    font-style: oblique;
+    color: var(--kiang-shi);
+    line-height: 15px; }
+
+.gabreupost lb {
+    font-size: 11px;
+    font-style: oblique;
+    color: var(--lobisomem);
+    line-height: 15px; }
+
+.gabreupost mt {
+    font-size: 11px;
+    font-style: oblique;
+    color: var(--metamorfo);
+    line-height: 15px; }
+
+.gabreupost on {
+    font-size: 11px;
+    font-style: oblique;
+    color: var(--oneiro);
+    line-height: 15px; }
+
+.gabreupost vp {
+    font-size: 11px;
+    font-style: oblique;
+    color: var(--vampiro);
+    line-height: 15px; }
+
+.gabreupost yk {
+    font-size: 11px;
+    font-style: oblique;
+    color: var(--youkai);
+    line-height: 15px; }

@@ -292,6 +292,103 @@
     color: var(--artemis);
 }
 
+  .gabreu-post aj {
+    font-size: 11px;
+    font-style: oblique;
+    color: var(--anjo);
+    line-height: 15px}
+    
+.gabreu-post bx {
+    font-size: 11px;
+    font-style: oblique;
+    color: var(--bruxo);
+    line-height: 15px; }
+
+.gabreu-post bs {
+    font-size: 11px;
+    font-style: oblique;
+    color: var(--banshee);
+    line-height: 15px; }
+    
+
+.gabreu-post cc {
+    font-size: 11px;
+    font-style: oblique;
+    color: var(--caçador);
+    line-height: 15px; }
+
+.gabreu-post de {
+    font-size: 11px;
+    font-style: oblique;
+    color: var(--demônio);
+    line-height: 15px; }
+
+.gabreu-post di {
+    font-size: 11px;
+    font-style: oblique;
+    color: var(--dimon);
+    line-height: 15px; }
+
+.gabreu-post dj {
+    font-size: 11px;
+    font-style: oblique;
+    color: var(--djinn);
+    line-height: 15px; }
+
+.gabreu-post fd {
+    font-size: 11px;
+    font-style: oblique;
+    color: var(--fada);
+    line-height: 15px; }
+
+.gabreu-post ft {
+    font-size: 11px;
+    font-style: oblique;
+    color: var(--feiticeiro);
+    line-height: 15px; }
+
+.gabreu-post jp {
+    font-size: 11px;
+    font-style: oblique;
+    color: var(--jumper);
+    line-height: 15px; }
+
+.gabreu-post kg {
+    font-size: 11px;
+    font-style: oblique;
+    color: var(--kiang-shi);
+    line-height: 15px; }
+
+.gabreu-post lb {
+    font-size: 11px;
+    font-style: oblique;
+    color: var(--lobisomem);
+    line-height: 15px; }
+
+.gabreu-post mt {
+    font-size: 11px;
+    font-style: oblique;
+    color: var(--metamorfo);
+    line-height: 15px; }
+
+.gabreu-post on {
+    font-size: 11px;
+    font-style: oblique;
+    color: var(--oneiro);
+    line-height: 15px; }
+
+.gabreu-post vp {
+    font-size: 11px;
+    font-style: oblique;
+    color: var(--vampiro);
+    line-height: 15px; }
+
+.gabreu-post yk {
+    font-size: 11px;
+    font-style: oblique;
+    color: var(--youkai);
+    line-height: 15px; }
+
 .gabreu-post e {
     color: var(--cor-grupo);
     font-style: italic; 

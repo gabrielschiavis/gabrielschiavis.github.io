@@ -324,6 +324,7 @@
     left: calc(50% - 100px);
     font-family: 'Averia Serif Libre';
     font-size: 15px;
+    background-color: rgba(0, 0, 0, 0.8)
     color: var(--ctexto1), #eee;
     line-height: 12px;
     font-style: italic, bold;
@@ -370,7 +371,7 @@
 .gabreu-texto {
     position: relative;
     min-height: 350px;
-    background: var(--fundo2);
+    background: var(--fundo2), #181818;
     border-left:1px var(cor--grupo);
 }
 
@@ -381,6 +382,7 @@
     padding: 30px 60px;
     margin: 0px 25px 30px 25px;
     line-height: 14px;
+    color: #eee;
 }
 
 .gabreu-icon:before {

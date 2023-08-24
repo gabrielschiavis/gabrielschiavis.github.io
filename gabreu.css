@@ -533,7 +533,7 @@
 .gabreu-texto {
     position: relative;
     min-height: 350px;
-    background: var(--fundo2), #181818;
+    background: var(--fundo2), #e3e3e3e3;
     border-left:1px var(cor--grupo);
 }
 

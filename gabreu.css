@@ -7,6 +7,71 @@
     margin: 20px auto;
     width: 700px;
 }
+ #anjo .gabreu { 
+     --cor-grupo: #0f698c;}
+
+#atlanti .gabreu { 
+ --cor-grupo: #80d2f2;
+ --img-grupo: url("https://i.imgur.com/m8mFvUb.png");
+ --img-hover: url('https://i.imgur.com/l5T0hR5.png');}
+
+    #banshee .gabreu { 
+     --cor-grupo: #fb31d5;}
+
+    #bruxo .gabreu { 
+     --cor-grupo: #7d604f;}
+
+    #caçador .gabreu { 
+     --cor-grupo: #3eb595;}
+
+    #demônio .gabreu { 
+    --cor-grupo: #a3c0a2;
+    --img-grupo: url("https://64.media.tumblr.com/553af3c47bb658b4b8c5eda6063ca81b/032bdd6ba7c8b574-c6/s1280x1920/dc5a724f902727400b3113ab4914f0a92723a51e.jpg");
+    --img-hover: url("https://64.media.tumblr.com/57054b9427a92bc8a72f819a29d6921f/41c450304a2ba807-9b/s640x960/049155799cdf0c9a150669b9c8132efee728ca64.gifv");
+}
+
+    #dimon .gabreu { 
+     --cor-grupo: #9acd32;
+     --img-grupo: url("https://i.imgur.com/KVQGQ1A.png");
+     --img-hover: url('https://i.imgur.com/ksjuDJ7.png');}
+    
+   #djinn .gabreu { 
+      --cor-grupo: #f9db4a;
+      --img-grupo: url("https://i.imgur.com/GGjrQLK.png");
+      --img-hover: url("https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExMGFjODhiMjkwNTVlMjc4YTk4OTE1ZmM3NTlmMmMyMTBkYmI0MWJmOCZlcD12MV9pbnRlcm5hbF9naWZzX2dpZklkJmN0PWc/m5CNU8sBMeomY1EGtU/giphy.gif")
+   
+   }
+
+    #fada .gabreu { 
+     --cor-grupo: #ff8097;}
+
+    #feiticeiro .gabreu { 
+     --cor-grupo: #5b2491;}
+
+    #jumper .gabreu { 
+     --cor-grupo: #79844d;}
+
+    #kiang-shi .gabreu { 
+     --cor-grupo: #d9bea7;}
+
+    #lobisomem .gabreu { 
+     --cor-grupo: #ff8d00;}
+
+    #metamorfo .gabreu { 
+     --cor-grupo: #a66eb6;}
+
+    #oneiro .gabreu { 
+     --cor-grupo: #ae4b2a;
+     --img-grupo: url("https://i.ibb.co/TBJpJnC/teste1.png");
+     --img-hover: url('https://i.imgur.com/9oPOI73.png')!important;}
+    
+
+    #vampiro .gabreu { 
+    --cor-grupo: #821718;
+}
+
+    #youkai .gabreu { 
+    --cor-grupo: #c76969;} 
 
 #deuses .gabreu {
     --cor-grupo: var(--deuses);

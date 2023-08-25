@@ -503,7 +503,7 @@
     left: calc(50% - 100px);
     font-family: 'Averia Serif Libre';
     font-size: 15px;
-    background-color: rgba(0, 0, 0, 0.8)
+    background-color: rgba(0, 0, 0, 0.8);
     color: var(--ctexto1), #eee;
     line-height: 12px;
     font-style: italic, bold;
@@ -545,6 +545,8 @@
     position: relative;
     top: calc(53% - 25px);
     left: calc(50% - 130px);
+    background-color: rgba(0, 0, 0, 0.7);
+
 }
 
 .gabreu-texto {

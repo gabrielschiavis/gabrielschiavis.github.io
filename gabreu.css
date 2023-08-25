@@ -544,7 +544,7 @@
     padding: 30px 60px;
     margin: 0px 25px 30px 25px;
     line-height: 14px;
-    color: #eee;
+    color: var(--ctexto1), #eee;
     white-space: pre-line;
 }
 

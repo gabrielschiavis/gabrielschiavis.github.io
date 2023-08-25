@@ -533,8 +533,8 @@
 .gabreu-texto {
     position: relative;
     min-height: 350px;
-    background-color: var(--fundo2), #1f1f1f;
-    border-left:1px var(cor-grupo);
+    background-color: var(--fundo2, #1f1f1f);
+    border-left:1px var(--cor-grupo);
 }
 
 .gabreu-post {
@@ -544,7 +544,7 @@
     padding: 30px 60px;
     margin: 0px 25px 30px 25px;
     line-height: 14px;
-    color: var(--ctexto1), #eee;
+    color: var(--ctexto1, #eee);
     white-space: pre-line;
 }
 

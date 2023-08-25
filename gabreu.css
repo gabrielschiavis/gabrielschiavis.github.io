@@ -553,7 +553,7 @@
     position: relative;
     min-height: 350px;
     background-color: var(--fundo2, #181818);
-    border-left:1px var(--cor-grupo);
+    border-left: 1px solid var(--cor-grupo);
 }
 
 .gabreu-post {

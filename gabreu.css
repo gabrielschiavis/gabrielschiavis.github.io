@@ -5,7 +5,24 @@
 .gabreu {
     display: block;
     margin: 20px auto;
-    width: 700px;
+    width: 700px; 
+    --anjo: #0f698c;
+    --atlanti: #80d2f2;
+    --banshee: #fb31d5;
+    --bruxo: #7d604f;
+    --caçador: #3eb595;
+    --demônio: #a3c0a2;
+    --dimon: #9acd32;
+    --djinn: #f9db4a;
+    --fada: #ff8097;
+    --feiticeiro: #5b2491;
+    --jumper: #79844d;
+    --kiang-shi: #d9bea7;
+    --lobisomem: #ff8d00;
+    --metamorfo: #a66eb6;
+    --oneiro: #ae4b2a;
+    --vampiro: #821718;
+    --youkai: #c76969;
 }
  #anjo .gabreu { 
      --cor-grupo: #0f698c;}

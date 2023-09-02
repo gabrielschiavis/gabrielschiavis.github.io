@@ -81,6 +81,9 @@
 
 #feiticeiro .ghae {
     --cor-grupo: #5b2491;
+    --img-grupo: url("https://i.imgur.com/GGjrQLK.png");
+    --img-hover: url("https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExMGFjODhiMjkwNTVlMjc4YTk4OTE1ZmM3NTlmMmMyMTBkYmI0MWJmOCZlcD12MV9pbnRlcm5hbF9naWZzX2dpZklkJmN0PWc/m5CNU8sBMeomY1EGtU/giphy.gif");
+    --img-circle: url("https://64.media.tumblr.com/f620082a33a0d065a3a2eb70d421d720/602bcd4ff4088641-4a/s640x960/438e88e27e23630c0371525c0e8bfea2010c13d3.jpg");
 }
 
 #jumper .ghae {

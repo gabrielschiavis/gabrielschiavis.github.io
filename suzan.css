@@ -12,11 +12,67 @@ grid-template-rows: auto;
 grid-template-areas:
   "surorapost";}
 
+ #anjo .suroracon { 
+     --cor-grupo: #0f698c;}
 
+#atlanti .suroracon { 
+ --cor-grupo: #80d2f2;
 
-  .suroracon b { color: #000;
+    #banshee .suroracon { 
+     --cor-grupo: #fb31d5;}
+
+    #bruxo .suroracon { 
+     --cor-grupo: #7d604f;}
+
+    #caçador .suroracon { 
+     --cor-grupo: #3eb595;}
+
+    #demonio .suroracon { 
+    --cor-grupo: #a3c0a2;
+    }
+
+    #dimon .suroracon { 
+     --cor-grupo: #9acd32;
+     }
+    
+   #djinn .suroracon { 
+      --cor-grupo: #f9db4a;
+   }
+
+    #fada .suroracon { 
+     --cor-grupo: #ff8097;}
+
+    #feiticeiro .suroracon { 
+     --cor-grupo: #5b2491;}
+
+    #jumper .suroracon { 
+     --cor-grupo: #79844d;}
+
+    #kiang-shi .suroracon { 
+     --cor-grupo: #d9bea7;}
+
+    #lobisomem .suroracon { 
+     --cor-grupo: #ff8d00;}
+
+    #metamorfo .suroracon { 
+     --cor-grupo: #a66eb6;}
+
+    #oneiro .suroracon { 
+     --cor-grupo: #ae4b2a;
+      
+    #vampiro .suroracon { 
+    --cor-grupo: #821718;
+}
+
+    #youkai .suroracon { 
+    --cor-grupo: #c76969;} 
+
+  .suroracon b { color: var(--cor-grupo);
     padding: 2px 0px;
-    font-weight: 700; }
+    font-weight: 700; 
+    font-size: 12px; 
+    font-weight: 700; 
+    font-family: Libre Baskerville;}
 
   .suroracon .surorapost { grid-area: surorapost;
     padding: 60px;
@@ -35,8 +91,4 @@ grid-template-areas:
     font-size: 8px; color: #fff; font-style: italic;
     letter-spacing: 1px; justify-content: space-evenly;}
 
-  .suroracon b { font-size: 12px; font-weight: 700; font-family: Libre Baskerville;}
-
 .surorapost h1 { border-top: 1px solid #242323; border-bottom: 1px solid #242323; padding: 15px 0px; text-align: center; margin-top: -20px; margin-bottom: 50px; font-weight: 100; letter-spacing: 2px; text-transform: uppercase; font-family: Against; font-size: 20px; }
-
-#astrid .suroracon b { color: #ff0000; }

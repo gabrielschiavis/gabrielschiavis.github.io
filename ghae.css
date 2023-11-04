@@ -11,8 +11,8 @@
     --atlanti: #80d2f2;
     --banshee: #fb31d5;
     --bruxo: #7d604f;
-    --caçador: #3eb595;
-    --demônio: #a3c0a2;
+    --cacador: #3eb595;
+    --demonio: #a3c0a2;
     --dimon: #9acd32;
     --djinn: #f9db4a;
     --fada: #ff8097;
@@ -63,7 +63,7 @@
     --cor-grupo: #9acd32;
     --img-grupo: url("https://i.imgur.com/KVQGQ1A.png");
     --img-hover: url('https://i.imgur.com/ksjuDJ7.png');
-    --img-circle: url('https://i.imgur.com/D0zVptW.jpg');
+    --img-circle: url('https://64.media.tumblr.com/f6870ef06aff4b904184e3cd3653f496/0c762aaa1af756f6-06/s1280x1920/c426f6e65e735921e73c111d88f4e04028a32a6c.pnj');
     --outra-cor: rgb(144, 195, 40);
 }
 
@@ -340,13 +340,13 @@
 .ghae-text cc {
     font-size: 11px;
     font-style: oblique;
-    color: var(--caçador);
+    color: var(--cacador);
     line-height: 15px; }
 
 .ghae-text de {
     font-size: 11px;
     font-style: oblique;
-    color: var(--demônio);
+    color: var(--demonio);
     line-height: 15px; }
 
 .ghae-text di {

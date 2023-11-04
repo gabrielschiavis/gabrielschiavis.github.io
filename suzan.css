@@ -105,3 +105,54 @@ grid-template-areas:
     letter-spacing: 1px; justify-content: space-evenly;}
 
 .surorapost h1 { border-top: 1px solid #242323; border-bottom: 1px solid #242323; padding: 15px 0px; text-align: center; margin-top: -20px; margin-bottom: 50px; font-weight: 100; letter-spacing: 2px; text-transform: uppercase; font-family: Against; font-size: 20px; }
+.surorapost cc {
+    color: var(--caçador);
+    }
+
+.surorapost de {
+    color: var(--demônio);
+    }
+
+.surorapost di {
+    color: var(--dimon);
+    }
+
+.surorapost dj {
+    color: var(--djinn);
+    }
+
+.surorapost fd {
+    color: var(--fada);
+    }
+
+.surorapost ft {
+    color: var(--feiticeiro);
+    }
+
+.surorapost jp {
+    color: var(--jumper);
+    }
+
+.surorapost kg {
+    color: var(--kiang-shi);
+    }
+
+.surorapost lb {
+    color: var(--lobisomem);
+    }
+
+.surorapost mt {
+    color: var(--metamorfo);
+    }
+
+.surorapost on {
+    color: var(--oneiro);
+    }
+
+.surorapost vp {
+    color: var(--vampiro);
+    }
+
+.surorapost yk {
+    color: var(--youkai);
+    }

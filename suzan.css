@@ -15,8 +15,8 @@ grid-template-areas:
     --atlanti: #80d2f2;
     --banshee: #fb31d5;
     --bruxo: #7d604f;
-    --caçador: #3eb595;
-    --demônio: #a3c0a2;
+    --cacador: #3eb595;
+    --demonio: #a3c0a2;
     --dimon: #9acd32;
     --djinn: #f9db4a;
     --fada: #ff8097;
@@ -123,11 +123,11 @@ grid-template-areas:
 
 .surorapost h1 { border-top: 1px solid #242323; border-bottom: 1px solid #242323; padding: 15px 0px; text-align: center; margin-top: -20px; margin-bottom: 50px; font-weight: 100; letter-spacing: 2px; text-transform: uppercase; font-family: Against; font-size: 20px; }
 .surorapost cc {
-    color: var(--caçador);
+    color: var(--cacador);
     }
 
 .surorapost de {
-    color: var(--demônio);
+    color: var(--demonio);
     }
 
 .surorapost di {

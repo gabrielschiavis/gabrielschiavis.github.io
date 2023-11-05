@@ -7,7 +7,16 @@
     width: 300px;
   }
 }
-
+@media (max-width: 1000px) {
+  .gabreu {
+    width: 300px;
+  }
+}
+@media (max-width: 1100px) {
+  .gabreu {
+    width: 300px;
+  }
+}
 #mobile .gabreu {width: 250px;}
 .gabreu {
     display: block;

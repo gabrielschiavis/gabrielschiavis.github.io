@@ -300,7 +300,7 @@
     outline-offset: -20px;
     min-height: 200px;
     background-color: var(--cor-grupo);
-    background-image: linear-gradient(to top, #000 0, 1%, rgba(355, 355, 355, 0.6) 45%, rgba(344., 344, 344, 0.8) 75%, rgba(300.300, 300, 1) 100%);
+    background-image: linear-gradient(to top, #000 0, 1%, rgba(255, 255, 255, 0.6) 45%, rgba(233., 233, 233, 0.8) 75%, rgba(200, 200, 200, 1) 100%);
     background-blend-mode: multiply;
     padding: 20px 80px;
     font-size: 12px;

@@ -465,3 +465,11 @@
     width: 20px;
 }
 
+.ghae-contador { 
+   background: #fff;
+   color: #000;
+   height: 50px;
+   display: block;
+   font-size: 09px;
+   font-family: 'Karla', sans-serif;
+}

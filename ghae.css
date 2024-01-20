@@ -316,7 +316,7 @@
 .ghae-text e {
     font-size: 11px;
     font-style: oblique;
-    color: var(--cor-grupo);
+    background-color: var(--cor-grupo);
     line-height: 15px;
 
 }

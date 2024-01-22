@@ -66,6 +66,7 @@
     text-align: center;
     color: #fff;
     transition: 1s;
+    line-height: 16px;
   }
  
 .alessa-head:hover .alessa-img {

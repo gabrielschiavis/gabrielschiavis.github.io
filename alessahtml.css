@@ -1,0 +1,17 @@
+[dohtml]
+<style>
+. alessa {
+  --imagem-fundo: url('https://i.imgur.com/18DRvrU.png'); /* imagem 550x250 */
+  --imagem-circulo: url('https://i.postimg.cc/wMkhKXVR/219359387a462190e421131fa83abb92.gif');  /* imagem 80x80 */
+}
+  
+</style>
+<link rel="stylesheet" href="https://gabrielschiavis.github.io/alessa.css">
+<div id="melinoe"><div class="alessa"><div class="alessa-head"><h1>Título vem aqui</h1><div class="alessa-img"></div></div><div class="alessa-text">
+TEXTO VEM AQUI  <b>— Falas entre a tag b —</b> Continue a nadar. 
+  
+</div></div></div>
+
+
+
+[/dohtml]

@@ -103,10 +103,17 @@
   font-size: 12px;
   color: #000;
   min-height: 90px;
- text-align: justify!important;
+  text-align: justify!important;
   line-height: 15px;
   white-space: pre-line;
  }
+
+.alessa-text::first-letter {
+ font-size: 28px; 
+ font-family: 'Grape Nuts'; 
+ font-weight: 800; color: var(--cor-grupo);
+}
+
 
 .alessa-text b{
 font-family: 'Karla', sans-serif;

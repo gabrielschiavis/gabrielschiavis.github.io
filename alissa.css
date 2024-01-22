@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Grape+Nuts&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:slnt,wght@-10..0,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+
+    #aclis .alessa { --cor-grupo: #6b8e23; }
+    #afrodite-venus .alessa { --cor-grupo: #fd87b3; }
+    #anemoi .alessa { --cor-grupo: #6baea0; }
+    #apolo-febo .alessa { --cor-grupo: #e8c361; }
+    #ares-marte .alessa { --cor-grupo: #e14e3e; }
+    #artemis-diana .alessa { --cor-grupo: #7F8A92; }
+    #athena-minerva .alessa { --cor-grupo: #E56627; }
+    #campista .alessa { --cor-grupo: #d2c0b4; }
+    #asclepio .alessa { --cor-grupo: #1F8559; }
+    #deimos-metus .alessa { --cor-grupo: #3e3e3e; }
+    #demeter-ceres .alessa { --cor-grupo: #65AC55; }
+    #dionisio-baco .alessa { --cor-grupo: #7d0c43; }
+    #enio-belona .alessa { --cor-grupo: #e77266; }
+    #eris-discordia .alessa { --cor-grupo: #aa6f73; }
+    #eros .alessa { --cor-grupo: #cc4e7d; }
+    #hades-plutao .alessa { --cor-grupo: #555f61; }
+    #helio-sol .alessa { --cor-grupo: #C1A96D; }
+    #hecate-trivia .alessa { --cor-grupo: #abb1cf; }
+    #hefesto-vulcano .alessa { --cor-grupo: #683609; }
+    #heracles-hercules .alessa { --cor-grupo: #b8af47; }
+    #hermes-mercurio .alessa { --cor-grupo: #82bdc0; }
+    #hipnos-somno .alessa { --cor-grupo: #744A7D; }
+    #indeterminado .alessa { --cor-grupo: #bdbebd; }
+    #iris .alessa { --cor-grupo: #fab1a0; }
+    #kairos .alessa { --cor-grupo: #61639F; }
+    #melinoe .alessa { --cor-grupo: #61585F; }
+    #mnemosine .alessa { --cor-grupo: #8a2be2; }
+    #momo .alessa { --cor-grupo: #A06DA4; }
+    #nemesis-invidia .alessa { --cor-grupo: #b5130d; }
+    #nike-vitoria .alessa { --cor-grupo: #D4AF37; }
+    #oneiros .alessa { --cor-grupo: #503789; }
+    #persephone-proserpina .alessa { --cor-grupo: #a45b72; }
+    #phobos-timorus .alessa { --cor-grupo: #424242; }
+    #ponos .alessa { --cor-grupo: #987043; }
+    #poseidon-netuno .alessa { --cor-grupo: #4276ab; }
+    #quione .alessa { --cor-grupo: #abcee0; }
+    #sanco .alessa { --cor-grupo: #668AA4; }
+    #selene .alessa { --cor-grupo: #988E9B; }
+    #thanatos-mors .alessa { --cor-grupo: #444443; }
+    #zeus-jupiter .alessa { --cor-grupo: #536781; }
+
+.alessa{
+  width: 550px;
+  margin: 20px auto;
+}
+  .alessa-head {
+    height: 250px;
+    background-image: var(--imagem-fundo);
+    background-color:var(--cor-grupo);
+    background-size: cover;
+    background-blend-mode: multiply;
+    border-radius: 10% 0% 0% 0%;
+    transition: 1s;
+
+  }
+  .alessa-head h1 {
+    font-family: "Grape Nuts", cursive;
+    font-weight: 400;
+    font-style: normal;;
+    font-size: 28px;
+    position: relative; 
+    top: 185px;
+    text-align: center;
+    color: #fff;
+    transition: 1s;
+  }
+ 
+.alessa-head:hover .alessa-img {
+    visibility:hidden;
+  }
+
+.alessa-head:hover h1{
+  font-size: 50px;  
+  top: 125px; background-color: rgba(0, 0, 0, 0.8); 
+  height: 20px;
+  }
+
+  .alessa-img {
+    position: relative; 
+    top: 60px;    
+    left: 225px;
+    border: 2px solid var(--cor-grupo); 
+    border-radius: 100%;
+    background: var(--imagem-circulo);
+    background-size: cover;
+    width: 80px;
+    height: 80px;
+    
+  }
+
+  .alessa-text {
+  background: #fff;
+  outline: solid 1px var(--cor-grupo); 
+  outline-offset: -10px;
+  text-align: left;
+  padding: 40px 40px;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300
+  font-size: 12px;
+  color: #000;
+  min-height: 90px;
+ }
+
+.alessa-text b{
+font-family: 'Karla', sans-serif;
+font-size: 14px;
+font-weight: 700;
+color: var(--cor-grupo);
+font-style: italic;
+}
+  

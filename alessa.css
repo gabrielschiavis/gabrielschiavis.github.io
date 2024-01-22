@@ -103,6 +103,7 @@
   font-size: 12px;
   color: #000;
   min-height: 90px;
+  white-space: preline;
  }
 
 .alessa-text b{

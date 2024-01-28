@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=EB+Garamond:500,600,800i,800|Lekton:400|Poppins:400,700,800|Lekton:800");
 .Gio00 { margin: 20px auto; width: 600px; background-color: #fff; box-shadow: 0 0 5px #d5d5d5; padding: 5px  --cor-grupo: #3F76A6; --cor-grupo2: #A6443F; }
 .Gio01 { text-align: justify; font-family: eb garamond; font-size: 14px; padding: 50px; color: #bcbcbc; border: solid 1px #e8e8e8; line-height: 150%; white-space: pre-line; }
 .Gio01 b { font-size: 17px; color: var(--cor-grupo); }

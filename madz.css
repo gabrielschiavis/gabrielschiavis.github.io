@@ -562,7 +562,7 @@
 
 
 .ghae-box2 {
-    visibility: visible!;
+    visibility: visible;
     position: relative!;
     background: rgba(14, 14, 14, 0.6);
     height: 23px;
@@ -586,7 +586,7 @@
     height: 23px;
     width: 200px;
     margin-top: 5px;
-    right: 400px;
+    right: 0px;
     top: 30px;
     font-family: 'montserrat';
     font-size: 10px;
@@ -604,7 +604,7 @@
     height: 23px;
     width: 200px;
     margin-top: 5px;
-    right: 400px;
+    right: 0px;
     top: 30px;
     font-family: 'montserrat';
     font-size: 10px;

@@ -550,7 +550,7 @@
 
 .ghae-img {
     position: sticky;
-    top: 67px;
+    top: 0px;
     height: 120px;
     width: 120px;
     clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);

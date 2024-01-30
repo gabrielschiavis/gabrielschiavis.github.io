@@ -560,30 +560,16 @@
     background: var(--cor-grupo);
 }
 
-.ghae-box {
-    position: relative;
-    background: rgba(14, 14, 14, 0.6);
-    width: 250px;
-    top: 50px;
-    font-family: 'montserrat';
-    font-size: 9px;
-    letter-spacing: 1px;
-    color: rgba(255, 255, 255, 0.7);
-    min-height: 10px;
-    max-height: 100px;
-    line-height: 10px;
-    padding: 7px 7px 7px 7px;
-    text-align: justify;
-}
 
 .ghae-box2 {
-    visibility: hidden;
-    position: absolute;
+    visibility: visible!;
+    position: relative!;
     background: rgba(14, 14, 14, 0.6);
     height: 23px;
     width: 200px;
-    margin-top: 170px;
-    margin-left: 400px;
+    margin-top: 5px;
+    right: 400px;
+    top: 30px;
     font-family: 'montserrat';
     font-size: 10px;
     font-weight: 500;
@@ -591,60 +577,56 @@
     color: rgba(255, 255, 255, 1);
     line-height: 10px;
     text-align: center;
-    padding-top: 7px;
-}
-
-.ghae-box3 {
-    visibility: hidden;
-    position: absolute;
-    background: rgba(14, 14, 14, 0.6);
-    height: 23px;
-    width: 200px;
-    margin-top: 236px;
-    margin-left: 400px;
-    font-family: 'montserrat';
-    font-size: 10px;
-    letter-spacing: 1px;
-    color: rgba(255, 255, 255, 1);
-    font-weight: 500;
-    min-height: 10px;
-    text-align: center;
-    padding-top: 7px;
-}
+    padding-top: 7px;}
 
 .ghae-box4 {
-    visibility: hidden;
-    position: absolute;
+    visibility: visible;
+    position: relative;
     background: rgba(14, 14, 14, 0.6);
     height: 23px;
     width: 200px;
-    margin-top: 203px;
-    margin-left: 400px;
+    margin-top: 5px;
+    right: 400px;
+    top: 30px;
     font-family: 'montserrat';
     font-size: 10px;
+    font-weight: 500;
     letter-spacing: 1px;
     color: rgba(255, 255, 255, 1);
-    font-weight: 500;
     line-height: 10px;
     text-align: center;
-    padding-top: 7px
-}
+    padding-top: 7px;}
+
+.ghae-box3 {
+    visibility: visible;
+    position: relative;
+    background: rgba(14, 14, 14, 0.6);
+    height: 23px;
+    width: 200px;
+    margin-top: 5px;
+    right: 400px;
+    top: 30px;
+    font-family: 'montserrat';
+    font-size: 10px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: rgba(255, 255, 255, 1);
+    line-height: 10px;
+    text-align: center;
+    padding-top: 7px;}
 
 .ghae-head:hover .ghae-box2 {
-    visibility: visible;
+    visibility: hidden;
 }
 
 .ghae-head:hover .ghae-box3 {
-    visibility: visible;
+    visibility: hidden;
 }
 
 .ghae-head:hover .ghae-box4 {
-    visibility: visible;
-}
-
-.ghae-head:hover .ghae-box {
     visibility: hidden;
 }
+
 
 .ghae-head:hover h1 {
     visibility: hidden;

@@ -62,6 +62,7 @@
     --selene: #988E9B;
     --tanatos: #444443;
     --zeus: #536781;
+    --biotico: #31633e;
 }
 
 #anjo .ghae {
@@ -469,6 +470,16 @@
     --outra-cor: rgb(164, 65, 32); 
     --cor-grupo: #536781;
 }
+
+
+#bio .ghae {
+    --cor-grupo: #31633e;
+    --img-grupo: url('https://64.media.tumblr.com/a62d8a57d7eb05b8442b860def92d7db/09518963235ee7e3-92/s2048x3072/1c5536a123a073e4ade979e62f51d358d08e66cf.pnj');
+    --img-hover: url("https://i.imgur.com/owIE3x1.png");
+    --img-circle: url('https://64.media.tumblr.com/a932c2624bf07f48d5ce608507aa3763/09518963235ee7e3-33/s250x400/6f374e91498f7ea2c215a7079b0fb94f9b8c8c40.pnj');
+    --outra-cor: rgb(0, 90, 125);
+}
+
 
 .ghae-head {
     display: grid;

@@ -644,11 +644,10 @@
     outline-offset: -20px;
     min-height: 200px;
     background-color: var(--cor-grupo);
-    background-image: linear-gradient(to bottom, #fff 0, 1%, #F4F4F4 45%, #EAEAEA 75%, #D5D5D5 100%);
+    background-image: linear-gradient(to top, #fff 0, 1%, rgba(0, 0, 0, 1) 45%, rgba(24.24, 24, 1) 75%, rgba(26.26, 26, 1) 100%);
     background-blend-mode: hard-light;
     padding: 20px 80px;
     font-size: 12px;
-    color: #000;
     font-family: 'Libre Franklin';
     line-height: 14.5px;
     text-align: justify;

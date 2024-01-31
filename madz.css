@@ -637,6 +637,7 @@
     background-color: var(--cor-grupo);
     background-image: linear-gradient(to top, #fff 0, 1%, rgba(0, 0, 0, 1) 45%, rgba(24.24, 24, 1) 75%, rgba(26.26, 26, 1) 100%);
     background-blend-mode: hard-light;
+    color: #FFF; 
     padding: 20px 80px;
     font-size: 12px;
     font-family: 'Libre Franklin';

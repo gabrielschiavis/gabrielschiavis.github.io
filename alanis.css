@@ -1,0 +1,58 @@
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+    .alaniiscon { color: #ddd;
+      width: 550px; outline: 1px solid #ddd; outline-offset: -10px;
+      margin: 30px auto; border: 1px solid rgba(255,255,255,0.2);
+      background-color: #040404;
+      --cacador: #3EB595;
+      --ciborgue: #79A1F7;
+      --feiticeiro: #5b2491;
+      --gorgona: #ff8097;
+      --licantropo: #ff8d00;
+      --metamorfo: #C76969;
+      --sereiano: #80D2F2;
+
+    display: grid;
+    grid-template-columns: 100px auto;
+    grid-template-rows: auto;
+    grid-template-areas:
+      "alaniisgif alaniispost";}
+
+      #biotico .alaniiscon { --cor-grupo: #31633e;}
+      #cacador.alaniiscon { --cor-grupo: #3EB595;}
+      #ciborgue.alaniiscon { --cor-grupo: #79A1F7;}
+      #feiticeiro.alaniiscon { --cor-grupo: #5b2491;}
+      #gorgona.alaniiscon { --cor-grupo: #ff8097;}
+      #licantropo.alaniiscon { --cor-grupo: #ff8d00;}
+      #metamorfo.alaniiscon { --cor-grupo: #C76969;}
+      #sereiano.alaniiscon { --cor-grupo: #80D2F2;}
+
+  .alaniiscon .alaniispost { grid-area: alaniispost;
+    padding: 70px;
+    text-align: justify;
+    font-family: poppins;
+    font-size: 11px!important;
+    line-height: 200%;}
+
+  .alaniiside { top: 0px; padding: 15px; border-right: 1px solid rgba(255,255,255,0.2);
+    position: sticky; grid-area: alaniisgif; outline: 1px solid #ddd; outline-offset: -10px;
+    background: var(--cor-grupo); background-image: url(https://images2.imgbox.com/d5/77/0K9lfDOx_o.png);
+    background-size: auto; background-position-y: 50%; background-size: cover;
+    background-position-x: 50%; background-attachment: fixed; background-blend-mode: multiply;
+    text-transform: uppercase; font-family: magnies;
+    font-size: 8px; color: #fff; font-style: italic;
+    letter-spacing: 1px; justify-content: space-evenly;}
+
+  .alaniiscon b { font-size: 12px; font-weight: 700;}
+
+.alaniiside h1 { transform: rotate(180deg); writing-mode: vertical-rl; text-orientation: sideways-right; padding: 25px; text-align: center; 
+  margin: auto; font-weight: 800; letter-spacing: 3px; text-transform: lowercase; 
+  font-family: poppins; font-style: italic; font-size: 11px;
+border: none; }
+
+.alaniisgif { width: 120px; height: 120px; border-radius: 100%; margin: auto; border: 2px solid rgba(255,255,255,0.2);  margin-bottom: 50px;}
+.alaniisgif1 { margin-top: 10px; width: 100px; height: 100px; background-size: cover; border-radius: 100%;
+margin-left: auto; margin-right: auto; }
+
+
+#rowan .alaniisgif1 { background-image: url(https://i.pinimg.com/originals/25/db/75/25db751422286e9d919c7d450545954e.gif); }

@@ -46,7 +46,7 @@
     font-size: 8px; color: #fff; font-style: italic;
     letter-spacing: 1px; justify-content: space-evenly;}
 
-  .alaniiscon b { font-size: 12px; font-weight: 700; color: var(--cor-grupo;)}
+  .alaniiscon b { font-size: 12px; font-weight: 700; color: var(--cor-grupo);}
   .alaniiscon bt { font-size: 12px; font-weight: 700; color: var(--biotico);}
   .alaniiscon cc { font-size: 12px; font-weight: 700; color: #3EB595;}
   .alaniiscon cb { font-size: 12px; font-weight: 700; color: #79A1F7;}

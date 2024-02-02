@@ -33,7 +33,9 @@
     text-align: justify;
     font-family: poppins;
     font-size: 11px!important;
-    line-height: 200%;}
+    line-height: 200%;
+    white-space: pre-line;
+     }
 
   .alaniiside { top: 0px; padding: 15px; border-right: 1px solid rgba(255,255,255,0.2);
     position: sticky; grid-area: alaniisgif; outline: 1px solid #ddd; outline-offset: -10px;

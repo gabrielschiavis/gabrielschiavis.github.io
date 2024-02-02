@@ -19,13 +19,13 @@
       "alaniisgif alaniispost";}
 
       #biotico .alaniiscon { --cor-grupo: #31633e;}
-      #cacador.alaniiscon { --cor-grupo: #3EB595;}
-      #ciborgue.alaniiscon { --cor-grupo: #79A1F7;}
-      #feiticeiro.alaniiscon { --cor-grupo: #5b2491;}
-      #gorgona.alaniiscon { --cor-grupo: #ff8097;}
-      #licantropo.alaniiscon { --cor-grupo: #ff8d00;}
-      #metamorfo.alaniiscon { --cor-grupo: #C76969;}
-      #sereiano.alaniiscon { --cor-grupo: #80D2F2;}
+      #cacador .alaniiscon { --cor-grupo: #3EB595;}
+      #ciborgue .alaniiscon { --cor-grupo: #79A1F7;}
+      #feiticeiro .alaniiscon { --cor-grupo: #5b2491;}
+      #gorgona .alaniiscon { --cor-grupo: #ff8097;}
+      #licantropo .alaniiscon { --cor-grupo: #ff8d00;}
+      #metamorfo .alaniiscon { --cor-grupo: #C76969;}
+      #sereiano .alaniiscon { --cor-grupo: #80D2F2;}
 
   .alaniiscon .alaniispost { grid-area: alaniispost;
     padding: 70px;
@@ -51,7 +51,6 @@
 border: none; }
 
 .alaniisgif { width: 120px; height: 120px; border-radius: 100%; margin: auto; border: 2px solid rgba(255,255,255,0.2);  margin-bottom: 50px;}
-.alaniisgif1 { margin-top: 10px; width: 100px; height: 100px; background-size: cover; border-radius: 100%;
-margin-left: auto; margin-right: auto; }
+.alaniisgif1 { margin-top: 10px; width: 100px; height: 100px; background-size: cover; border-radius: 100%; margin-left: auto; margin-right: auto; background-image: var(--imagem-icon); }
 
 

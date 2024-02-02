@@ -1,18 +1,47 @@
 [dohtml]<link rel="stylesheet" href="https://gabrielschiavis.github.io/alanis.css"><style>
 #cami .alaniiscon { --imagem-icon: url('https://i.pinimg.com/originals/25/db/75/25db751422286e9d919c7d450545954e.gif');}
+
 #briseis .alaniiscon {--imagem-icon: url('https://64.media.tumblr.com/4381554…/5b413bc4e3831b67-11/s540x810/386e664….gif');}      
-#florian.alaniiscon {--imagem-icon: url('https://64.media.tumblr.com/1ee7990c6c463aa22b5d96a79dcadf50/66d0d416443492c4-8f/s540x810/ec73fd4f104e0bb50af37ef7d50185e971426279.gif');}
-#mia.alaniiscon {--imagem-icon: url('https://64.media.tumblr.com/ebdddc84f0ad3723db48442792581428/3618aee20ea7d287-36/s540x810/f62811ffec225a82d4a664e2fad29b7a8e90de89.gif');}
-#river.alaniiscon {--imagem-icon: url('https://64.media.tumblr.com/fceffe3670735ca17c0962f0beacc5a8/dfffacdd403fc938-f7/s540x810/1e0116c48a272db8fe310971667b7e99a2512fc2.gif');}
+
+#florian .alaniiscon {--imagem-icon: url('https://64.media.tumblr.com/1ee7990c6c463aa22b5d96a79dcadf50/66d0d416443492c4-8f/s540x810/ec73fd4f104e0bb50af37ef7d50185e971426279.gif');}
+
+#mia .alaniiscon {--imagem-icon: url('https://64.media.tumblr.com/ebdddc84f0ad3723db48442792581428/3618aee20ea7d287-36/s540x810/f62811ffec225a82d4a664e2fad29b7a8e90de89.gif');}
+
+#river .alaniiscon {--imagem-icon: url('https://64.media.tumblr.com/fceffe3670735ca17c0962f0beacc5a8/dfffacdd403fc938-f7/s540x810/1e0116c48a272db8fe310971667b7e99a2512fc2.gif');}
+
 #novo.alaniiscon {--imagem-icon: url('escolher gif aqui');}
+
 #novo2.alaniiscon {--imagem-icon: url('escolher gif aqui');}
 
 </style>
 
-<div id="biotico"><div id="briseis"><div class="alaniiscon"><div class="alaniiside"><div style="position: sticky; top: 0px;"><h1>here comes the darkness it's eating all my soul
+<div id="gorgona"><div id="cami"><div class="alaniiscon"><div class="alaniiside"><div style="position: sticky; top: 0px;"><h1>here comes the darkness it's eating all my soul
 </h1></div></div> <div class="alaniispost">
 <div class="alaniisgif"><div class="alaniisgif1"></div></div>
 
-TEXTO AQUI 
+TEXTO AQUI
+
+ <b>— texto com o b  </b> — NÃO É MAIS NECESSÁRIO, USAR <b>P</b> PARA PULAR LINHA!
+
+Para utilizar outras cores, pode-se varias usando a primeira leitra da raça, mas a primeira consoante da segunda silaba. 
+
+Exemplos:
+
+Para utilizar a cor dos <lb>licantropos</lb> use lb
+
+Para utilizar a cor dos <bt>bioticos</bt>, use bt
+
+Para utilizar a cor dos <cc>caçadores</cc>, use cc
+
+Para utilizar a cor das <gg>górgonas </gg> use gg 
+
+Para utilizar a cor dos <sr>sereianos</sr> use sr
+
+Para utilizar a cor dos <mt>metamorfo</mt> use mt
+
+Para utilizar a cor dos <cb>ciborgue</cb> use cb
+
+Para utilizar a cor dos <ft>feiticeiro</ft> use ft
+
 </div></div></div></div>
 [/dohtml]

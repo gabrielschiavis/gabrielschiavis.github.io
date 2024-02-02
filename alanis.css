@@ -44,6 +44,17 @@
     letter-spacing: 1px; justify-content: space-evenly;}
 
   .alaniiscon b { font-size: 12px; font-weight: 700; color: var(--cor-grupo;)}
+  .alaniiscon cc { font-size: 12px; font-weight: 700; color: #3EB595;}
+  .alaniiscon cb { font-size: 12px; font-weight: 700; color: #79A1F7;}
+  .alaniiscon ft { font-size: 12px; font-weight: 700; color: var(--feiticeiro);}
+  .alaniiscon gg { font-size: 12px; font-weight: 700; color: var(--gorgona);}
+  .alaniiscon lc { font-size: 12px; font-weight: 700; color: var(--licantropo);}
+  .alaniiscon mt { font-size: 12px; font-weight: 700; color: var(--metamorfo);}
+  .alaniiscon sr { font-size: 12px; font-weight: 700; color: var(--sereiano);}
+
+
+      --metamorfo: #C76969;
+      --sereiano: #80D2F2;
 
 .alaniiside h1 { transform: rotate(180deg); writing-mode: vertical-rl; text-orientation: sideways-right; padding: 25px; text-align: center; 
   margin: auto; font-weight: 800; letter-spacing: 3px; text-transform: lowercase; 

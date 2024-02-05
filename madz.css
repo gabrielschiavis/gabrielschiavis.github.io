@@ -557,7 +557,7 @@
 
 
 .ghae-box2 {
-    visibility: visible;
+    visibility: hidden;
     position: absolute;
     background: rgba(14, 14, 14, 0.6);
     height: 23px;
@@ -574,7 +574,7 @@
     padding-top: 7px;}
 
 .ghae-box4 {
-    visibility: visible;
+    visibility: hidden;
     position: absolute;
     background: rgba(14, 14, 14, 0.6);
     height: 23px;
@@ -591,7 +591,7 @@
     padding-top: 7px;}
 
 .ghae-box3 {
-    visibility: visible;
+    visibility: hidden;
     position: absolute;
     background: rgba(14, 14, 14, 0.6);
     height: 23px;
@@ -608,15 +608,15 @@
     padding-top: 7px;}
 
 .ghae-head:hover .ghae-box2 {
-    visibility: hidden;
+    visibility: visible;
 }
 
 .ghae-head:hover .ghae-box3 {
-    visibility: hidden;
+    visibility: visible;
 }
 
 .ghae-head:hover .ghae-box4 {
-    visibility: hidden;
+    visibility: visible;
 }
 
 
@@ -633,7 +633,7 @@
     background-blend-mode: hard-light;
     color: #FFF; 
     padding: 20px 80px;
-    font-size: 12px;
+    font-size: 13.5px;
     font-family: 'Libre Franklin';
     line-height: 14.5px;
     text-align: justify;

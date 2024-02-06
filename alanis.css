@@ -27,6 +27,17 @@
       #licantropo .alaniiscon { --cor-grupo: #ff8d00;}
       #metamorfo .alaniiscon { --cor-grupo: #C76969;}
       #sereiano .alaniiscon { --cor-grupo: #80D2F2;}
+      #vampiro .alaniiscon { --cor-grupo: #821718;}
+
+      #bioticos .alaniiscon { --cor-grupo: #31633e;}
+      #cacadores .alaniiscon { --cor-grupo: #3EB595;}
+      #ciborgues .alaniiscon { --cor-grupo: #79A1F7;}
+      #feiticeiros .alaniiscon { --cor-grupo: #5b2491;}
+      #gorgonas .alaniiscon { --cor-grupo: #ff8097;}
+      #licantropos .alaniiscon { --cor-grupo: #ff8d00;}
+      #metamorfos .alaniiscon { --cor-grupo: #C76969;}
+      #sereianos .alaniiscon { --cor-grupo: #80D2F2;}
+      #vampiros .alaniiscon { --cor-grupo: #821718;}
 
   .alaniiscon .alaniispost { grid-area: alaniispost;
     padding: 70px;

@@ -67,33 +67,6 @@
     --vampiro: #821718;    
 }
 
-#anjo .ghae {
-    --cor-grupo: #0f698c;
-    --img-grupo: url('https://i.imgur.com/CJWfgBJ.png');
-    --img-hover: url("https://i.imgur.com/owIE3x1.png");
-    --img-circle: url('https://64.media.tumblr.com/068bd54f54fd8986e393bf1d95761dee/336cf78e61cff30d-04/s400x600/fb8f08e2ddc3e1f1a516b4b485b428b7f45971fd.gifv');
-    --outra-cor: rgb(0, 90, 125);
-}
-
-#atlanti .ghae {
-    --cor-grupo: #80d2f2;
-    --img-grupo: url('https://i.imgur.com/XzW0nhZ.png');
-    --img-hover: url("https://i.imgur.com/m8mFvUb.png");
-    --img-circle: url('https://i.imgur.com/oUqsh7F.png');
-    --outra-cor: #6bafca;
-}
-
-#banshee .ghae {
-    --cor-grupo: #fb31d5;
-}
-
-#bruxo .ghae {
-    --cor-grupo: #7d604f;
-}
-
-#caçador .ghae {
-    --cor-grupo: #3eb595;
-}
 #bio .ghae {
     --cor-grupo: #31633e;
     --img-grupo: url('https://64.media.tumblr.com/a62d8a57d7eb05b8442b860def92d7db/09518963235ee7e3-92/s2048x3072/1c5536a123a073e4ade979e62f51d358d08e66cf.pnj');

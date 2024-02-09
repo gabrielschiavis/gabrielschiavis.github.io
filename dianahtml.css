@@ -1,0 +1,25 @@
+/* CÓDIGO CRIADO POR GABSEU - USO LIVRE */
+
+<style> 
+.diana {
+    background-attachment: fixed;
+    background-size: cover;}
+
+
+#hilda .diana{--imagem-grupo: url('COLOCAR IMAGEM AQUI'); --imagem-fundo: url('COLOCAR IMAGEM DO FUNDO AQUI'); } /* AQUI VC VEM COM A IMAGEM REDONDA (80X80) EM --imagem-grupo:  e a imagem de fundo em --imagem-fundo:  */
+
+#hilda .diana h1::before{content:"ESCREVA O TEXTO AQUI";} /* Aqui vem o texto do título para cada personagem */
+
+
+#aquila .diana{--imagem-grupo: url('COLOCAR IMAGEM AQUI'); --imagem-fundo: url('https://i.imgur.com/KT35wPh.jpeg');  } /* O mesmo acontece aqui, mas para outras contas, para criar uma nova conta basta copiar este código e trocar o nome da conta */
+
+#aquila .diana h1::before{content:"ESCREVA O TEXTO AQUI";}
+
+</style>
+<link rel="stylesheet" href="https://gabrielschiavis.github.io/diana.css">
+<div id="biotico"><div id="aquila"><div class="diana"><h1></h1><div class="diana-imagem"></div><div class="texto-diana">
+TEXTO AQUI 
+
+
+</div></div></div>
+</div></div></div>[/dohtml]

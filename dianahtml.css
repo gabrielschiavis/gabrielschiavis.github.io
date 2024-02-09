@@ -1,9 +1,6 @@
 /* CÓDIGO CRIADO POR GABSEU - USO LIVRE */
 
 <style> 
-.diana {
-    background-attachment: fixed;
-    background-size: cover;}
 
 
 #hilda .diana{--imagem-grupo: url('COLOCAR IMAGEM AQUI'); --imagem-fundo: url('COLOCAR IMAGEM DO FUNDO AQUI'); } /* AQUI VC VEM COM A IMAGEM REDONDA (80X80) EM --imagem-grupo:  e a imagem de fundo em --imagem-fundo:  */

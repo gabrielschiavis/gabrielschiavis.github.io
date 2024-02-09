@@ -115,4 +115,4 @@
     padding: 50px 80px;
 }
 
-.texto-diana b, .texto-diana i {font-size: 13px; color: var(--cor-grupo);}
+.texto-diana b, .texto-diana i {font-family: "Diphylleia", serif; font-size: 12.5px; color: var(--cor-grupo); font-weight: 100;}

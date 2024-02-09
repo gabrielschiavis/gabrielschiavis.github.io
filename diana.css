@@ -14,7 +14,9 @@
     background-size: cover;
     min-height: 200px;
     margin: auto auto;
-
+    background-attachment: fixed;
+    background-position-x: center;
+    
     --cacador: #3EB595;
     --ciborgue: #79A1F7;
     --feiticeiro: #5b2491;

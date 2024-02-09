@@ -18,7 +18,7 @@
     margin: auto auto;
     background-attachment: fixed;
     background-position-x: center;
-    
+    box-shadow: 3px 3px 2px 1px rgba(0, 0, 0, 0.6);
     --cacador: #3EB595;
     --ciborgue: #79A1F7;
     --feiticeiro: #5b2491;
@@ -114,3 +114,5 @@
     white-space: pre-line;
     padding: 50px 80px;
 }
+
+.texto-diana b, .texto-diana i {font-size: 13px; color: var(--cor-grupo);}

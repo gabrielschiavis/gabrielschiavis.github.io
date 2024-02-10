@@ -1,5 +1,3 @@
-/* CÓDIGO CRIADO POR GABSEU - USO LIVRE */
-
 [dohtml] <style> 
 
 
@@ -7,16 +5,14 @@
 
 #hilda .diana h1::before{content:"ESCREVA O TEXTO AQUI";} /* Aqui vem o texto do título para cada personagem */
 
-
 #aquila .diana{--imagem-grupo: url('COLOCAR IMAGEM AQUI'); --imagem-fundo: url('https://i.imgur.com/KT35wPh.jpeg');  } /* O mesmo acontece aqui, mas para outras contas, para criar uma nova conta basta copiar este código e trocar o nome da conta */
 
 #aquila .diana h1::before{content:"ESCREVA O TEXTO AQUI";}
 
 </style>
 <link rel="stylesheet" href="https://gabrielschiavis.github.io/diana.css">
-<div id="biotico"><div id="aquila"><div class="diana"><h1></h1><div class="diana-imagem"></div><div class="texto-diana">
+<div id="biotico"><div id="aquila"><div class="diana"><h1></h1><h2>Com: [user=28,6]@Pluto[/user] Em: <b>Sei lá</b> Quando: <b>01/01/2001</b></h2><div class="diana-imagem"></div><div class="texto-diana">
 TEXTO AQUI 
 
 
-</div></div></div>
 </div></div></div>[/dohtml]

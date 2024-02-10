@@ -38,8 +38,6 @@
     --sereiano-rgba: rgba(128, 210, 242, 0.6);
     --vampiro-rgba: rgba(130, 23, 24, 0.6);
 
-}
-
 #biotico .diana {
     --cor-grupo: #31633e;
     --cor-rgba: rgba(49, 99, 62, 0.6);
@@ -86,6 +84,7 @@
 }
 
 .diana h1 {
+    visibility: visible;
     font-family: 'Chronos Stroke', cursive;
     font-size: 20px;
     color: var(--cor-rgba);
@@ -95,6 +94,20 @@
     border-bottom: 1px solid var(--cor-rgba);
 }
 
+.diana h2 {
+    visibility: hidden;
+    font-family: 'Chronos Stroke', cursive;
+    font-size: 16px;
+    color: var(--cor-rgba);
+    text-align: center;
+    text-transform: uppercase;
+    border-bottom: 1px solid var(--cor-rgba);
+    padding: 0px 0px;
+    margin: -60px 0px }
+
+.diana h2 b, .diana h2 a{
+    font-size: 12px; 
+    color: #fff;}
 
 .diana-imagem {
     width: 80px;
@@ -103,7 +116,7 @@
     background: var(--imagem-grupo), #000;
     outline: 1px solid rgba(305, 305, 305, 0.4);
     outline-offset: 3px;
-    margin: -60px 395px;
+    margin: 37px 395px;
     background-size: cover;
 
 }
@@ -114,7 +127,8 @@
     line-height: 14px;
     color: #e1e1e1;
     white-space: pre-line;
-    padding: 50px 80px;
+    padding: 0px 60px; 
+    margin: -50px 0px;    
     text-align: justify;
 }
 

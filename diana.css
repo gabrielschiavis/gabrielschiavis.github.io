@@ -37,6 +37,7 @@
     --metamorfo-rgba: rgba(199, 105, 105, 0.6);
     --sereiano-rgba: rgba(128, 210, 242, 0.6);
     --vampiro-rgba: rgba(130, 23, 24, 0.6);
+}
 
 #biotico .diana {
     --cor-grupo: #31633e;

@@ -100,7 +100,7 @@
     font-family: 'Chronos Stroke', cursive;
     font-size: 16px;
     color: var(--cor-rgba);
-    text-align: center;
+    text-align: left;
     text-transform: uppercase;
     border-bottom: 1px solid var(--cor-rgba);
     padding: 0px 0px;

@@ -9,7 +9,7 @@
     font-family: 'Chronos Stroke';
     src: url('https://files.jcink.net/uploads/essicodes/ChronosSerif_Stroked.ttf');
 }
-
+#feiticeiro .diana {background:var(--imagem-fundo, url('https://i.imgur.com/KT35wPh.jpeg')), linear-gradient(to bottom, rgba(0, 0, 0, 1) 45%, rgba(24.24, 24, 1) 85%, rgba(30.30, 30, 1) 90%, rgba(155, 155, 155, 0.2) 100%), #a460e6; }
 .diana {
     width: 500px;
     background: var(--imagem-fundo, url('https://i.imgur.com/KT35wPh.jpeg')), linear-gradient(to bottom, rgba(0, 0, 0, 1) 45%, rgba(24.24, 24, 1) 85%, rgba(30.30, 30, 1) 90%, rgba(155, 155, 155, 0.2) 100%), var(--cor-grupo);

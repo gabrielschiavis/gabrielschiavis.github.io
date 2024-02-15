@@ -10,7 +10,7 @@
 @import url('https://gabrielschiavis.github.io/copy/import.css');
 .madz-gabs a{color: #fff; font-weight: bold;}
 .madz-gabs {
-background: url('https://getwallpapers.com/wallpaper/full/4/0/9/1432416-new-black-and-white-wolf-wallpaper-2756x2067-for-windows-10.jpg'), linear-gradient(to bottom, rgba(0, 0, 0, 1) 40%, rgba(24.24, 24, 1) 62%, rgba(30.30, 30, 1) 70%, rgba(55.55, 55, 1) 80%, rgba(75.75, 75, 1) 90%, rgba(105, 105, 105, 0.2) 100%), var(--cor-grupo);
+background: var(--fundo), linear-gradient(to bottom, rgba(0, 0, 0, 1) 40%, rgba(24.24, 24, 1) 62%, rgba(30.30, 30, 1) 70%, rgba(55.55, 55, 1) 80%, rgba(75.75, 75, 1) 90%, rgba(105, 105, 105, 0.2) 100%), var(--cor-grupo);
 background-blend-mode: multiply;
 background-size: cover; 
 background-attachment: fixed;
@@ -66,8 +66,6 @@ align-items: center;
 border-radius: 100%;
 width: 60px; height: 60px;
 border: 2px solid var(--cor-grupo-rgba);
-background-size: cover; 
-background-blend-mode: overlay;
 margin:20px 20px;
 --imagem1: url('https://i.imgur.com/BmFrxen.jpg');
 --imagem2: url('https://64.media.tumblr.com/15063dc81f22762a76a732827a73eccc/a65fb02375f7e0c2-fe/s400x600/530dbcd1bdbcaac4127612a80c8e6e9b9f495452.pnj');
@@ -81,6 +79,9 @@ position: absolute;
 left: -7px;
 top: 30px;
 background: var(--imagem1, --imagem2, --imagem3), rgba(0, 0, 0, 0.2);
+background-size: cover; 
+background-blend-mode: overlay;
+         
 }
 
 .madz-imagem2 {
@@ -89,6 +90,8 @@ position: absolute;
 left: -7px;
 top: 120px;
 background: var(--imagem2, --imagem1, --imagem3), rgba(0, 0, 0, 0.2);
+background-size: cover; 
+background-blend-mode: overlay;
 
 }
 
@@ -97,7 +100,8 @@ position: absolute;
 left: -7px;
 top: 210px;
 background: var(--imagem3, --imagem1, --imagem2), rgba(0, 0, 0, 0.2);
-
+background-size: cover; 
+background-blend-mode: overlay;
 }
 
 .madz-texto { 

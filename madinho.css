@@ -126,22 +126,4 @@ position: relative; }
 
 .madz-texto b, .madz-texto i{color: var(--cor-grupo); font-size: 1.1em; }
 
-      #biotico .madz-gabs{ --cor-grupo: #31633e; --cor-grupo-rgba: var(--biotico-rgba);}
-      #cacador .madz-gabs{ --cor-grupo: #3EB595; --cor-grupo-rgba: var(--cacador-rgba);}
-      #ciborgue .madz-gabs{ --cor-grupo: #79A1F7; --cor-grupo-rgba: var(--ciborgue-rgba);}
-      #feiticeiro .madz-gabs{ --cor-grupo: #5b2491; --cor-grupo-rgba: var(--feiticeiro-rgba);}
-      #gorgona .madz-gabs{ --cor-grupo: #ff8097; --cor-grupo-rgba: var(--gorgona-rgba);}
-      #licantropo .madz-gabs{ --cor-grupo: #ff8d00; --cor-grupo-rgba: var(--licantropo-rgba);}
-      #metamorfo .madz-gabs{ --cor-grupo: #C76969; --cor-grupo-rgba: var(--metamorfo-rgba);}
-      #sereiano .madz-gabs{ --cor-grupo: #80D2F2; --cor-grupo-rgba: var(--sereiano-rgba);}
-      #vampiro .madz-gabs{ --cor-grupo: #821718; --cor-grupo-rgba: var(--vampiro-rgba);}
 
-      #bioticos .madz-gabs{ --cor-grupo: #31633e;}
-      #cacadores .madz-gabs{ --cor-grupo: #3EB595;}
-      #ciborgues .madz-gabs{ --cor-grupo: #79A1F7;}
-      #feiticeiros .madz-gabs{ --cor-grupo: #5b2491;}
-      #gorgonas .madz-gabs{ --cor-grupo: #ff8097;}
-      #licantropos .madz-gabs{ --cor-grupo: #ff8d00;}
-      #metamorfos .madz-gabs{ --cor-grupo: #C76969;}
-      #sereianos .madz-gabs{ --cor-grupo: #80D2F2;}
-      #vampiros .madz-gabs{ --cor-grupo: #821718;}

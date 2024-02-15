@@ -19,23 +19,6 @@ font-size: 12px;
 width: 550px;
 margin: auto auto; 
 box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.8);
---ciborgue: #79A1F7;
---feiticeiro: #5b2491;
---gorgona: #ff8097;
---licantropo: #ff8d00;
---metamorfo: #C76969;
---sereiano: #80D2F2;
---vampiro: #821718;
---biotico-rgba: rgba(49, 99, 62, 0.6);
---cacador-rgba: rgba(62, 181, 149, 0.6);
---ciborgue-rgba: rgba(121, 161, 247, 0.6);
---feiticeiro-rgba: rgba(91, 36, 145, 0.6);
---gorgona-rgba: rgba(255, 128, 151, 0.6);
---licantropo-rgba: rgba(255, 141, 0, 0.6);
---metamorfo-rgba: rgba(199, 105, 105, 0.6);
---sereiano-rgba: rgba(128, 210, 242, 0.6);
---vampiro-rgba: rgba(130, 23, 24, 0.6);
-}
 
 .madz-head h1{
 font-family: 'Roboto Slab';

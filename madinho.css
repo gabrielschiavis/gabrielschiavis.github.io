@@ -80,7 +80,7 @@ background-blend-mode: overlay;
 position: absolute; 
 left: -7px;
 top: 210px;
-background: var(--imagem3, --imagem1, --imagem2), rgba(0, 0, 0, 0.2);
+background: var(--imagem3, var(--imagem1), var(--imagem2)), rgba(0, 0, 0, 0.2);
 background-size: cover; 
 background-blend-mode: overlay;
 }

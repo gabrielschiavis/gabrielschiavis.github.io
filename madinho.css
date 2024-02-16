@@ -50,8 +50,6 @@ border-radius: 100%;
 width: 60px; height: 60px;
 border: 2px solid var(--cor-grupo-rgba);
 margin:20px 20px;
---imagem1: url('https://i.imgur.com/BmFrxen.jpg');
---imagem2: url('https://64.media.tumblr.com/15063dc81f22762a76a732827a73eccc/a65fb02375f7e0c2-fe/s400x600/530dbcd1bdbcaac4127612a80c8e6e9b9f495452.pnj');
 
 }
 
@@ -59,7 +57,7 @@ margin:20px 20px;
 position: absolute;
 left: -7px;
 top: 30px;
-background: var(--imagem1, --imagem2, --imagem3), rgba(0, 0, 0, 0.2);
+background: var(--imagem1, var(--imagem2, var(--imagem3))), rgba(0, 0, 0, 0.2);
 background-size: cover; 
 background-blend-mode: overlay;
          
@@ -70,7 +68,7 @@ border: 1px solid rgba(255, 255, 255, 1);
 position: absolute;
 left: -7px;
 top: 120px;
-background: var(--imagem2, --imagem1, --imagem3), rgba(0, 0, 0, 0.2);
+background: var(--imagem2, var(--imagem1, var(--imagem3))), rgba(0, 0, 0, 0.2);
 background-size: cover; 
 background-blend-mode: overlay;
 
@@ -80,7 +78,7 @@ background-blend-mode: overlay;
 position: absolute; 
 left: -7px;
 top: 210px;
-background: var(--imagem3, var(--imagem1), var(--imagem2)), rgba(0, 0, 0, 0.2);
+background: var(--imagem3, var(--imagem1, var(--imagem2))), rgba(0, 0, 0, 0.2);
 background-size: cover; 
 background-blend-mode: overlay;
 }

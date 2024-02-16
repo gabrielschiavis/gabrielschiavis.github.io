@@ -92,7 +92,7 @@ background-blend-mode: overlay;
          text-align: justify; 
          font-family: Diphylleia;
          white-space: pre-line; 
-         line-height: 17px; 
+         line-height: 18.5px; 
          border-top: 1px dashed var(--cor-grupo-rgba);
      
 }

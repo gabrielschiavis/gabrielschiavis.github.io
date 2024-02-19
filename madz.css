@@ -1,6 +1,8 @@
 .ghae {
     width: 600px;
     margin: 20px auto;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
+
     --anjo: #0f698c;
     --atlanti: #80d2f2;
     --banshee: #fb31d5;
@@ -473,3 +475,12 @@
     height: 20px;
     width: 20px;
 }
+
+.ghae-head h1::before {visibility: hidden;
+  counter-increment: section;
+  content:  ""counter(section)" ";}
+
+
+.ghae-head h2:empty::before {
+  counter-increment: section;
+  content:  "#"counter(section)" ";}

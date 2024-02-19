@@ -7,7 +7,7 @@
 .ghae {
     width: 600px;
     margin: 20px auto;
-    box-shaddow: 1px 2px 5px rgba(0, 0, 0, 0.7);
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.7);
     --anjo: #0f698c;
     --atlanti: #80d2f2;
     --banshee: #fb31d5;

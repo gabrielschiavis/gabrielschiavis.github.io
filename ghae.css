@@ -824,3 +824,14 @@
     height: 20px;
     width: 20px;
 }
+
+:root {  counter-reset: section;}
+
+.ghae-head h1::before {visibility: hidden;
+  counter-increment: section;
+  content:  ""counter(section)" ";}
+
+
+.ghae-head h2:empty::before {
+  counter-increment: section;
+  content:  "#"counter(section)" ";}

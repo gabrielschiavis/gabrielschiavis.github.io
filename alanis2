@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Diphylleia&family=Noto+Sans+TC:wght@100..900&display=swap');
+@import url('https://gabrielschiavis.github.io/copy/import.css');
+@import url('https://fonts.googleapis.com/css2?family=Yesteryear&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+
+.alanis{ 
+background: var(--fundo, url('https://i.imgur.com/ZzIqIo4.png')), linear-gradient(to bottom, rgba(0, 0, 0, 1) 40%, rgba(24, 24, 24, 1) 62%, rgba(30, 30, 30, 1) 60%, rgba(55, 55, 55, 1) 70%, rgba(65, 65, 65, 1) 70%, rgba(75, 75, 75, 1) 75%, rgba(85, 85, 85, 1) 80%, rgba(95, 95, 95, 1) 90%, rgba(105, 105, 105, 0.2) 100%), var(--cor-grupo-rgba7);
+background-blend-mode: multiply;
+background-attachment: fixed;
+background-size: cover;
+width: 525px;
+margin: auto auto; 
+display: grid; 
+grid-template-areas: "gif post post" 
+                                "gif post post";
+
+box-shadow: 1px 2px 5px #000;
+border-radius: 0% 5% 5% 0;
+}
+
+.alanis-gif {
+grid-area: gif;
+display: grid;
+width: 150px;
+background:rgba(0, 0, 0, 0.8);
+background-blend-mode: overlay;´
+background-attachment: fixed;
+background-size: contain;
+background-position-x: -68.5%;
+outline: 1px solid var(--cor-grupo-rgba5);
+outline-offset: -5px;
+grid-template-areas:
+"icon icon"
+"h1 h1"
+"h1 h1"
+". ."
+". .";
+justify-content: center;
+    align-items: center;
+    text-align: center;
+    justify-items: center;
+text-align: center; 
+}
+
+.alanis h1{   
+    grid-area: h1; 
+    visibility: visible;
+    transition: 2s ease;
+font-family: "Libre Baskerville", serif;
+font-weight: 600;
+font-style: italic;
+    font-size:30px;
+    color: rgba(255, 255, 255, 0.65);
+    border-top: 5px solid var(--cor-grupo-rgba7);
+    border-bottom: 5px solid var(--cor-grupo-rgba7);
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    letter-spacing: 2px;
+    font-weight: 400;
+    position: sticky;
+    top: 20px;
+    text-shadow: 2px 1px black;
+}
+
+.alanis-gif:hover{ background: var(--cor-grupo-rgba2);
+background-blend-mode: overlay;
+background-attachment: initial;
+background-size: contain;}
+
+
+.alanis-icon { display: flex; grid-area: icon; background: var(--fundo, url('https://i.imgur.com/ZzIqIo4.png')), rgba(10, 10, 10, 1); background-blend-mode: overlay; width: 140px; height: 200px; border-radius: 0 0 0% 35%; border-bottom: 1.5px solid var(--cor-grupo-rgba3); background-size: cover; margin-top: -60px; justify-content: center; align-items: center; align-content: center; justify-items: center; position: sticky; top: 10px; }
+
+.alanis-icon2 {width: 80px; height: 80px; border-radius: 100%; outline: 1px dotted var(--cor-grupo-rgba9); outline-offset: 4px;background: var(--imagem-icon2); filter: none; background-size: cover;}
+
+.alanis-text {
+grid-area: post; 
+font-family: Arial;
+font-size: 12.5px;
+line-height: 19px;
+white-space: pre-line; 
+color: rgb(155, 155, 155);
+margin: 50px 30px;
+
+}
+
+.alanis-text:first-letter, .alanis-text i, .alanis-text b {font-family: "Libre Baskerville", serif; color: var(--cor-grupo); font-size: 11px; font-weight: 200;} 
+.alanis-text i {font-size: 13px;}
+.alanis-text::first-letter {font-family: Yesteryear; font-size: 28px; letter-spacing: 4px;}
+.alanis-gif:hover .alanis-icon2 {width: 120px; height: 120px;}
+.alanis-gif:hover .alanis-icon {background: var(--fundo, url('https://i.imgur.com/ZzIqIo4.png')), rgba(70, 70, 70, 1), var(--cor-grupo-rgba4); background-blend-mode: overlay;}

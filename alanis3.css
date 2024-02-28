@@ -85,4 +85,4 @@ margin: 50px 30px;
 .alanis-text i {font-size: 13px;}
 .alanis-text::first-letter {font-family: Yesteryear; font-size: 28px; letter-spacing: 4px;}
 .alanis-gif:hover .alanis-icon2 {width: 120px; height: 120px;}
-.alanis-gif:hover .alanis-icon {background: var(--fundo, url('https://i.imgur.com/ZzIqIo4.png')), rgba(70, 70, 70, 1), var(--cor-grupo-rgba4); background-blend-mode: overlay;}
+.alanis-gif:hover .alanis-icon {background: var(--imagem1, url('https://i.imgur.com/ZzIqIo4.png')), rgba(70, 70, 70, 1), var(--cor-grupo-rgba4); background-blend-mode: overlay;}

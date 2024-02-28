@@ -68,7 +68,7 @@ background-attachment: initial;
 background-size: contain;}
 
 
-.alanis-icon { display: flex; grid-area: icon; background: var(--fundo, url('https://i.imgur.com/ZzIqIo4.png')); width: 140px; height: 200px; border-radius: 0 0 0% 35%; border-bottom: 1.5px solid var(--cor-grupo-rgba3); background-size: cover; margin-top: -60px; justify-content: center; align-items: center; align-content: center; justify-items: center; position: sticky; top: 10px; }
+.alanis-icon { display: flex; grid-area: icon; background: var(--imagem1, url('https://i.imgur.com/ZzIqIo4.png')); width: 140px; height: 200px; border-radius: 0 0 0% 35%; border-bottom: 1.5px solid var(--cor-grupo-rgba3); background-size: cover; margin-top: -60px; justify-content: center; align-items: center; align-content: center; justify-items: center; position: sticky; top: 10px; }
 
 .alanis-text {
 grid-area: post; 

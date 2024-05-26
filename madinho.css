@@ -121,4 +121,7 @@ position: relative; }
 
 .madz-texto b, .madz-texto i{color: var(--cor-grupo); font-size: 1.15em; }
 
+#Eliot .madz-gabs {
+--imagem1: url('https://i.imgur.com/w5BKLE8.jpeg'); 
+--fundo: url('https://i.imgur.com/BVty3rH.png');}
 

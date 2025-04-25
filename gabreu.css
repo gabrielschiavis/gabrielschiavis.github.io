@@ -497,7 +497,7 @@
 .gabreu-head {
     background: var(--img-grupo), var(--cor-grupo);
     background-blend-mode: multiply;
-    height: 350px;
+    height: 250px;
     background-size: cover;
 }
 
